@@ -1,4 +1,3 @@
-<script>
   var images = [
     './pets/ANTELOPE-Anzi-Anzi.png',
     './pets/ANTELOPE-Barkilly.png',
@@ -689,4 +688,3 @@
     './pets/WEIRDROLL-Grainy.png',
     './pets/WEIRDROLL-Magneto-Fuchoop.png'
   ];
-</script>
