@@ -232,6 +232,7 @@
 
       // Create sections in the gallery for each category
       var categories = [];
+      images.sort();
       images.forEach(function(image) {
         var category = getCategory(image);
         if (!categories.includes(category)) {
