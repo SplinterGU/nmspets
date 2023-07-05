@@ -1,0 +1,61 @@
+{
+  "Scale": 0.9389740228652954,
+  "CreatureID": "^PLOUGH",
+  "Descriptors": [
+    "^_PLOW_D",
+    "^4225548520"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x80D6FEA13EEE0B86"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x8F8B19ADB0B4368E"
+  ],
+  "SpeciesSeed": "0xECAB893CDFA1823A",
+  "GenusSeed": "0xCAD50A1C69FEF00",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x51FA0000E963BB",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x80D6FEA13EEE0B86"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Plough"
+  },
+  "BirthTime": 1684972966,
+  "LastEggTime": 1684972966,
+  "LastTrustIncreaseTime": 1684973863,
+  "LastTrustDecreaseTime": 1684972966,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.07952117919921875,
+    0.7463443875312805,
+    0.19779932498931885
+  ],
+  "Moods": [
+    0.011243629269301891,
+    0.028340300545096397
+  ]
+}

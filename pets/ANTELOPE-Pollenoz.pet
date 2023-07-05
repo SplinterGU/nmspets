@@ -1,0 +1,67 @@
+{
+  "Scale": 0.8975531458854675,
+  "CreatureID": "^ANTELOPE",
+  "Descriptors": [
+    "^_HEAD_DEER",
+    "^_HDTEETH_1",
+    "^_HDEARS_2XRARE",
+    "^_HDHORNS_3",
+    "^_BODY_FAT",
+    "^_FATACC_6N",
+    "^_TAIL_ALIEN0",
+    "^769641669"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xE4D33FFBE42205F0"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x2E9D21C762435F65"
+  ],
+  "SpeciesSeed": "0x342B59E839A39B87",
+  "GenusSeed": "0xDF43261DBC14C2BA",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x503B00F9DC7670",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xE4D33FFBE42205F0"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1687731520,
+  "LastEggTime": 1687731520,
+  "LastTrustIncreaseTime": 1687731565,
+  "LastTrustDecreaseTime": 1687731520,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.38984644412994385,
+    -0.7262672185897827,
+    -0.15936493873596191
+  ],
+  "Moods": [
+    0.05037644878029823,
+    0.1484844982624054
+  ]
+}

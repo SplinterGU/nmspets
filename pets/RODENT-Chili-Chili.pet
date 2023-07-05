@@ -1,0 +1,68 @@
+{
+  "Scale": 2.1191468238830566,
+  "CreatureID": "^RODENT",
+  "Descriptors": [
+    "^_HEAD_LIZARD",
+    "^__HLACC_0",
+    "^_HLNECK_0",
+    "^_HLEARS_0",
+    "^_HLACC_2",
+    "^_BODY_SLOTH",
+    "^_SBACK_0",
+    "^_TAIL_RODENT",
+    "^556441592"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xA1F6400FEF2C8166"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xE74EF0B1192160A2",
+  "GenusSeed": "0x9EDA2944F9ACF69E",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": 4666331639694888,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xA1F6400FEF2C8166"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "PlayerPredator"
+  },
+  "BirthTime": 1684798705,
+  "LastEggTime": 1684798705,
+  "LastTrustIncreaseTime": 1684799016,
+  "LastTrustDecreaseTime": 1684798705,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.07229763269424438,
+    0.7021860480308533,
+    -0.031933099031448364
+  ],
+  "Moods": [
+    0.11604296416044235,
+    0.3280445337295532
+  ]
+}

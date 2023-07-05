@@ -1,0 +1,62 @@
+{
+  "Scale": 1,
+  "CreatureID": "^PROTOFLYER",
+  "Descriptors": [
+    "^_STRANGE_FLOAT",
+    "^_FLOAT_METALORB",
+    "^3997382721"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x685680B5CD7C13FE"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x4F25D260C04F8DD9"
+  ],
+  "SpeciesSeed": "0x9D45B7CF9C2591E",
+  "GenusSeed": "0x69D01B25601023FA",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x30EC00F8EDB94D",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x685680B5CD7C13FE"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoFlyer"
+  },
+  "BirthTime": 1684299100,
+  "LastEggTime": 1684299100,
+  "LastTrustIncreaseTime": 1684299178,
+  "LastTrustDecreaseTime": 1684299100,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.75,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.17595314979553223,
+    -0.7829790711402893,
+    -0.2882128059864044
+  ],
+  "Moods": [
+    0.013753088191151619,
+    0.0431913360953331
+  ]
+}

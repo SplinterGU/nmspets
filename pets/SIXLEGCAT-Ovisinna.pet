@@ -1,0 +1,69 @@
+{
+  "Scale": 0.9767332077026367,
+  "CreatureID": "^SIXLEGCAT",
+  "Descriptors": [
+    "^_HEAD_LIZARD",
+    "^_HLACC_A",
+    "^_HLMIDDLE_NULL",
+    "^_HLEARS_A",
+    "^_HLACC_NULL",
+    "^_LHNOSE_B",
+    "^_BODY_SIXLEGCAT",
+    "^_B6CA_BACKFUR1",
+    "^_TAIL_CAT",
+    "^4285055767"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x1BF6EB7C67734F61"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x134C110B52BA5B3",
+  "GenusSeed": "0xAB6A2A4BE504DBAB",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x40EB26FCFFE008",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x1BF6EB7C67734F61"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "PlayerPredator"
+  },
+  "BirthTime": 1685608434,
+  "LastEggTime": 1685608434,
+  "LastTrustIncreaseTime": 1685614316,
+  "LastTrustDecreaseTime": 1685614312,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.2037646770477295,
+    0.8694039583206177,
+    0.1716477870941162
+  ],
+  "Moods": [
+    0.007306315004825592,
+    0.01928911916911602
+  ]
+}

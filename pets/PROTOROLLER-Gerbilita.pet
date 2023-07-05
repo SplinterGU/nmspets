@@ -1,0 +1,63 @@
+{
+  "Scale": 0.7044258117675781,
+  "CreatureID": "^PROTOROLLER",
+  "Descriptors": [
+    "^_STRANGE_ROLL",
+    "^_ROLL_SINGLEJOINT",
+    "^_ROLL_LINKS",
+    "^3680339423"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x30F94C560E32930A"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x2EF1BAFCADFAFE63"
+  ],
+  "SpeciesSeed": "0xBF19E4788AEC37EC",
+  "GenusSeed": "0x1471DB3EE181F0EC",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x60223F081EE97B",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x30F94C560E32930A"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Swamp"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoRoller"
+  },
+  "BirthTime": 1687925096,
+  "LastEggTime": 1687925096,
+  "LastTrustIncreaseTime": 1687925106,
+  "LastTrustDecreaseTime": 1687925096,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.7204409837722778,
+    -0.42440128326416016,
+    0.4167358875274658
+  ],
+  "Moods": [
+    0.16517271101474762,
+    0.40035727620124817
+  ]
+}

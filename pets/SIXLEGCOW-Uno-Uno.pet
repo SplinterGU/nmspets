@@ -1,0 +1,66 @@
+{
+  "Scale": 0.34062349796295166,
+  "CreatureID": "^SIXLEGCOW",
+  "Descriptors": [
+    "^_HEAD_COWSKEW",
+    "^_HCSE_BLANK",
+    "^_HCSH_COWHORN",
+    "^_BODY_6LEGCOW1",
+    "^_B6CA_LUMP",
+    "^_TAIL_COW1",
+    "^1057410798"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x85B2C5117787AE28"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xD7C0D631DDFD8818",
+  "GenusSeed": "0x7AB4ADAB8674BB5",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x517B0905006FFB",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x85B2C5117787AE28"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685509553,
+  "LastEggTime": 1685509553,
+  "LastTrustIncreaseTime": 1685509721,
+  "LastTrustDecreaseTime": 1685509553,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.4052441716194153,
+    -0.8048760890960693,
+    0.3836919069290161
+  ],
+  "Moods": [
+    0.020298391580581665,
+    0.04992109164595604
+  ]
+}

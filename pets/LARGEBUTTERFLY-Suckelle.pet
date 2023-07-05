@@ -1,0 +1,64 @@
+{
+  "Scale": 1.2343478202819824,
+  "CreatureID": "^LARGEBUTTERFLY",
+  "Descriptors": [
+    "^_FWINGS_02",
+    "^_MOTHBODY_01",
+    "^_BWINGS_01",
+    "^_MWINGS_01",
+    "^2329136511"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2BB3D037660ED5D8"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x55FD1ED11D6D95D5"
+  ],
+  "SpeciesSeed": "0x3B5B18C6F66FBBE4",
+  "GenusSeed": "0xE0C6596F2CE369D1",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x40400002C66606",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2BB3D037660ED5D8"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Butterfly"
+  },
+  "BirthTime": 1680039900,
+  "LastEggTime": 1682459100,
+  "LastTrustIncreaseTime": 1683692513,
+  "LastTrustDecreaseTime": 1682459100,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.8000000715255737,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.08685863018035889,
+    -0.6352304220199585,
+    0.4575321674346924
+  ],
+  "Moods": [
+    0.07842450588941574,
+    0.11818961799144745
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Scale": 1.100000023841858,
+  "CreatureID": "^LAND_JELLYFISH",
+  "Descriptors": [
+    "^3997382721"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x0"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x8F6A4E86A230E130",
+  "GenusSeed": "0x364E9E106E282A9",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4559674766943751,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    true,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "LandJellyfish"
+  },
+  "BirthTime": 1682265731,
+  "LastEggTime": 1682699626,
+  "LastTrustIncreaseTime": 1683684294,
+  "LastTrustDecreaseTime": 1682265731,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.800000011920929,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.16219200193881989,
+    1,
+    0.878711998462677
+  ],
+  "Moods": [
+    0.025371311232447624,
+    0.010377486236393452
+  ]
+}

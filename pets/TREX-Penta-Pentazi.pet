@@ -1,0 +1,67 @@
+{
+  "Scale": 1.9617972373962402,
+  "CreatureID": "^TREX",
+  "Descriptors": [
+    "^_TREX_4",
+    "^_HEAD_CROC",
+    "^_CHACC_3A1",
+    "^_BODY_TREX",
+    "^_REXBACK_2",
+    "^_TAIL_BIRDREX",
+    "^_TBRACC_1",
+    "^1821718092"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x7B4C3D250F0BF838"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xA11B4D6D24374D0E",
+  "GenusSeed": "0xAB6A2A4BE504DBAB",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x40EB26FCFFE008",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x7B4C3D250F0BF838"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "PlayerPredator"
+  },
+  "BirthTime": 1685608318,
+  "LastEggTime": 1685608318,
+  "LastTrustIncreaseTime": 1685608384,
+  "LastTrustDecreaseTime": 1685608318,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.0802772045135498,
+    0.7898249626159668,
+    -0.4811994731426239
+  ],
+  "Moods": [
+    0.015960518270730972,
+    0.05200573429465294
+  ]
+}

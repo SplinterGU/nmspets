@@ -1,0 +1,68 @@
+{
+  "Scale": 0.6430176496505737,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_THIN",
+    "^_COW_HINDXRARE",
+    "^_BODY_ROCK",
+    "^_BCA_BLANK2",
+    "^_TYPE_EQLEGS",
+    "^_BRA_BACKSPINESXRARE",
+    "^_HEAD_REX",
+    "^_HREXACC_1",
+    "^4115884428"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x69166C19E8D848D7"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x8F8A0B6696407165"
+  ],
+  "SpeciesSeed": "0xB4F06EBAB3AC80D6",
+  "GenusSeed": "0xEC0A9338133D8140",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4987384794064630,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x69166C19E8D848D7"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1686410835,
+  "LastEggTime": 1686410835,
+  "LastTrustIncreaseTime": 1686410857,
+  "LastTrustDecreaseTime": 1686410835,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.2925834655761719,
+    -0.7941897511482239,
+    -0.009442806243896484
+  ],
+  "Moods": [
+    0.008164465427398682,
+    0.021962294355034828
+  ]
+}

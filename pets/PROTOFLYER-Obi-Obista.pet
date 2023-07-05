@@ -1,0 +1,66 @@
+{
+  "Scale": 5,
+  "CreatureID": "^PROTOFLYER",
+  "Descriptors": [
+    "^_STRANGE_FLOAT",
+    "^_FLOAT_ELEPHLOATER",
+    "^_FLOAT_RIDGEEEL",
+    "^_FLOAT_ROSEFISH",
+    "^_FLOAT_FLATCREATURE",
+    "^_FLOAT_RADIALWAVE",
+    "^2354596669"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xA4095A100438B1CA"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x723A726CCBCD1096"
+  ],
+  "SpeciesSeed": "0xD0A2FE784EFF89F1",
+  "GenusSeed": "0xE9BBB779171F6951",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x10F614C8461C5D7E",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    true,
+    "0x10010105B48368F3"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xA4095A100438B1CA"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoFlyer"
+  },
+  "BirthTime": 1685010496,
+  "LastEggTime": 1685010496,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685010496,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    1,
+    1,
+    -1
+  ],
+  "Moods": [
+    0.810133695602417,
+    0.24504655599594116
+  ]
+}

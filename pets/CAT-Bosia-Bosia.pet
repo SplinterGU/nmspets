@@ -1,0 +1,77 @@
+{
+  "Scale": 1.3709303140640259,
+  "CreatureID": "^CAT",
+  "Descriptors": [
+    "^_BODY_CAT",
+    "^_SHAPE_1",
+    "^_HEAD_ALIEN",
+    "^_VAR_1",
+    "^_SCALP_1",
+    "^_SOCKETS_1",
+    "^_EARGR_1",
+    "^_TOPGUM_1",
+    "^_ANTENNAS_1",
+    "^_JAWGUM_1",
+    "^_CHEEKS_2",
+    "^_SIDES_2",
+    "^_EYESA_2",
+    "^_EBALLSB_1",
+    "^_TAIL_LIZ",
+    "^_MESH_WOLF",
+    "^_BCW_X8",
+    "^3854536755"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x650B6435A7F03BE7"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xF888933220D828F"
+  ],
+  "SpeciesSeed": "0x1B7432046D7772D3",
+  "GenusSeed": "0x9605AF9D15A20D77",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": 5059952526320571,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x650B6435A7F03BE7"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Swamp"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1684954433,
+  "LastEggTime": 1684954433,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684954433,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.7648472785949707,
+    0.3937077522277832,
+    0.45889317989349365
+  ],
+  "Moods": [
+    0.21155422925949097,
+    0.827743411064148
+  ]
+}

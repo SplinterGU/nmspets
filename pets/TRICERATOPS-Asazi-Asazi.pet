@@ -1,0 +1,68 @@
+{
+  "Scale": 0.8076706528663635,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_DIPLO",
+    "^_NECK_ALIENDIPLO",
+    "^_ADIPACC_1",
+    "^_BDIPACC_NONE",
+    "^_CDIPACC_2",
+    "^_BODY_RHINO",
+    "^_RHB1_0",
+    "^_TAIL_TURTLE",
+    "^76611583"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x934614110B18FBA5"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x306E939D77877C9F"
+  ],
+  "SpeciesSeed": "0xDC88EBB4134B25E5",
+  "GenusSeed": "0x4BC0BB49720F4370",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x401503FB004FFB",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x934614110B18FBA5"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Frozen"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1686882052,
+  "LastEggTime": 1686882052,
+  "LastTrustIncreaseTime": 1686882066,
+  "LastTrustDecreaseTime": 1686882052,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.22747063636779785,
+    -0.2597500681877136,
+    -0.7320491075515747
+  ],
+  "Moods": [
+    0.06926529109477997,
+    0.17041060328483582
+  ]
+}

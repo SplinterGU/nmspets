@@ -1,0 +1,72 @@
+{
+  "Scale": 0.5613216757774353,
+  "CreatureID": "^SWIMCOW",
+  "Descriptors": [
+    "^_TAIL_COW",
+    "^_COW_SWIM",
+    "^_BODY_ROCK",
+    "^_BCA_BLANK2",
+    "^_BRA_BACKFINXRA",
+    "^_HEAD_ALIENTYPE",
+    "^_WEIRD_FLARED",
+    "^_FRUITF_NONE",
+    "^_FLARETOP_2",
+    "^_EYES2_A",
+    "^_EYESF_NONE",
+    "^_DIVIDE_1",
+    "^2812746560"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x59B943CF50C7A744"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x8CDAA98DB0FFDE42"
+  ],
+  "SpeciesSeed": "0x82CC3FF4A2280C6C",
+  "GenusSeed": "0xAC749D571A704D5B",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4785074650637831,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x59B943CF50C7A744"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1685887586,
+  "LastEggTime": 1685887586,
+  "LastTrustIncreaseTime": 1685887598,
+  "LastTrustDecreaseTime": 1685887586,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.6590365171432495,
+    -0.17759329080581665,
+    -0.3443336486816406
+  ],
+  "Moods": [
+    0.050468187779188156,
+    0.09019823372364044
+  ]
+}

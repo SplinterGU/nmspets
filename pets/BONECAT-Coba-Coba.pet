@@ -1,0 +1,70 @@
+{
+  "Scale": 1,
+  "CreatureID": "^BONECAT",
+  "Descriptors": [
+    "^_BONECAT_",
+    "^_TYPE_ROUND",
+    "^_ACC_NONE",
+    "^_HEAD_A",
+    "^_EYES_A",
+    "^_PLATE_HORN",
+    "^_BODY_ROUNDA",
+    "^_BACK_PLATEHOLES",
+    "^_BACKHOLES_CRYSTALSA",
+    "^_LIMBS_A",
+    "^3897887622"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xDC22C908D71DC020"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x63E3A91A08CAF71",
+  "GenusSeed": "0xE4790459C2B8424F",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4559674766943751,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xDC22C908D71DC020"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1682354280,
+  "LastEggTime": 0,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 0,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.6499999761581421,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.38555601239204407,
+    -0.3160949945449829,
+    0.7268760204315186
+  ],
+  "Moods": [
+    0.02542399987578392,
+    0.07331600040197372
+  ]
+}

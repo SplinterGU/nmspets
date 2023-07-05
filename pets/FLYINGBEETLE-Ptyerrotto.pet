@@ -1,0 +1,62 @@
+{
+  "Scale": 7,
+  "CreatureID": "^FLYINGBEETLE",
+  "Descriptors": [
+    "^_SHELL_SPIKY",
+    "^_HEAD_ROUND",
+    "^870763840"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD9C37D0724C8678A"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xEBB8704768A5918E"
+  ],
+  "SpeciesSeed": "0xBA1ABE2371797F7",
+  "GenusSeed": "0x1CD331412FD426B8",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x30330002C66607",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD9C37D0724C8678A"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "FlyingBeetle"
+  },
+  "BirthTime": 1682454341,
+  "LastEggTime": 1682454341,
+  "LastTrustIncreaseTime": 1683684382,
+  "LastTrustDecreaseTime": 1682454341,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.9000000357627869,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -1,
+    1,
+    -1
+  ],
+  "Moods": [
+    0.006368037313222885,
+    0.023843077942728996
+  ]
+}

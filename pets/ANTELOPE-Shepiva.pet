@@ -1,0 +1,67 @@
+{
+  "Scale": 0.48199892044067383,
+  "CreatureID": "^ANTELOPE",
+  "Descriptors": [
+    "^_HEAD_DEER",
+    "^_HDTEETH_1",
+    "^_HDEARS_4",
+    "^_HDHORNS_2",
+    "^_BODY_DEER",
+    "^_DEERACC_3N2",
+    "^_TAIL_ALIEN4",
+    "^24706542"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xE2A8B12C1C7DE0CF"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xE34ACD957D9F702F"
+  ],
+  "SpeciesSeed": "0xCB2D9E501AFA2063",
+  "GenusSeed": "0x22F19D8CC7D5A446",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x208AFEFBFFE006",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xE2A8B12C1C7DE0CF"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1686034787,
+  "LastEggTime": 1686034787,
+  "LastTrustIncreaseTime": 1686034826,
+  "LastTrustDecreaseTime": 1686034787,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.32299530506134033,
+    -0.8538853526115417,
+    0.2892594337463379
+  ],
+  "Moods": [
+    0.00666681956499815,
+    0.016227856278419495
+  ]
+}

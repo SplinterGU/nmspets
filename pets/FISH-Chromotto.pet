@@ -1,0 +1,68 @@
+{
+  "Scale": 0.883148193359375,
+  "CreatureID": "^FISH",
+  "Descriptors": [
+    "^_FISH_A",
+    "^_TAIL_4",
+    "^_BODY_1",
+    "^_SIDEFIN_1",
+    "^_TAILFIN_1",
+    "^_HEAD_1",
+    "^_H1ACC_1",
+    "^_TOPFIN_2",
+    "^4592274"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x620143B40A6FA307"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xCAFA07F182B0A309"
+  ],
+  "SpeciesSeed": "0xC9DC96637574E7F3",
+  "GenusSeed": "0x87CD55318388D4E7",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x60900404FFB005",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x620143B40A6FA307"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1685489434,
+  "LastEggTime": 1685489434,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685489434,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.42424654960632324,
+    -0.42681634426116943,
+    -0.7787047624588013
+  ],
+  "Moods": [
+    0.20488962531089783,
+    0.8192475438117981
+  ]
+}

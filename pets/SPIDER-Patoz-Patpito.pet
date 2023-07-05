@@ -1,0 +1,74 @@
+{
+  "Scale": 0.9283351898193359,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_NULL",
+    "^_BODY_2",
+    "^_NECK_ALT",
+    "^_TAIL_MANTISTAIL",
+    "^_HEAD_MUFFIN",
+    "^_ALTH2_BULBB",
+    "^_EYES_B",
+    "^_AT_SPIKES",
+    "^_MOUTH_B",
+    "^_LEGS_1",
+    "^_LEGA_1",
+    "^_LEGC_NULL",
+    "^_LEGB_NULL",
+    "^3847883962"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2361BEB01DA2925E"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x27696BAA72354F9F"
+  ],
+  "SpeciesSeed": "0xA23BBB865F2CB704",
+  "GenusSeed": "0x30E380668F6D1B45",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x40D71AFCFFF007",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2361BEB01DA2925E"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Crab"
+  },
+  "BirthTime": 1684456733,
+  "LastEggTime": 1684456733,
+  "LastTrustIncreaseTime": 1684456782,
+  "LastTrustDecreaseTime": 1684456733,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.5178306102752686,
+    -0.6649219989776611,
+    -0.1609710454940796
+  ],
+  "Moods": [
+    0.04556458443403244,
+    0.13436447083950043
+  ]
+}

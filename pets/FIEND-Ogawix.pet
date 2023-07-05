@@ -1,0 +1,61 @@
+{
+  "Scale": 0.8999999761581421,
+  "CreatureID": "^FIEND",
+  "Descriptors": [
+    "^_FIEND_BODY",
+    "^3997382721"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x0"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x0"
+  ],
+  "SpeciesSeed": 1,
+  "GenusSeed": 1,
+  "CustomSpeciesName": "^UI_FIEND_NAME",
+  "Predator": true,
+  "UA": 4534385986639606,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    true,
+    "0xE63756EA7E08441"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Dead"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1686344479,
+  "LastEggTime": 1686344479,
+  "LastTrustIncreaseTime": 1686344502,
+  "LastTrustDecreaseTime": 1686344479,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.14299999177455902,
+    1,
+    0.7379999756813049
+  ],
+  "Moods": [
+    0.006192932836711407,
+    0.013667531311511993
+  ]
+}

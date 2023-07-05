@@ -1,0 +1,63 @@
+{
+  "Scale": 1.3501089811325073,
+  "CreatureID": "^BLOB",
+  "Descriptors": [
+    "^_BODY_BLOB",
+    "^_BOC_ARMTENT",
+    "^_BOB_HARDSCALP",
+    "^451977269"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xAFC53C9A8192D1DD"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xEE9ECA8FDD2064AB",
+  "GenusSeed": "0xEB238FB95E7F334C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x40140109006FF5",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xAFC53C9A8192D1DD"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Swamp"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1687317213,
+  "LastEggTime": 1687317213,
+  "LastTrustIncreaseTime": 1687317223,
+  "LastTrustDecreaseTime": 1687317213,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.3497309684753418,
+    -0.6990697383880615,
+    0.2927837371826172
+  ],
+  "Moods": [
+    0.014495555311441422,
+    0.036727577447891235
+  ]
+}

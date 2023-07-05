@@ -1,0 +1,73 @@
+{
+  "Scale": 1.4140191078186035,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_NULL",
+    "^_BODY_2",
+    "^_NECK_MANTIS",
+    "^_HEAD_MANTIS",
+    "^_MHACC_NULL",
+    "^_MEYES_2",
+    "^_MANTENNA_NULL",
+    "^_MARM_B",
+    "^_TAIL_NULL",
+    "^_ACM_BULBSIDE",
+    "^_ACMB_SPIKES",
+    "^_LEGS_2",
+    "^1171210658"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xBA026545F3A88A5C"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x8AE79A0D401C22CD",
+  "GenusSeed": "0x8BD2A1DEAF18F06E",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x2193007777C77A",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xBA026545F3A88A5C"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1686705457,
+  "LastEggTime": 1686705457,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1686705457,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.2225179672241211,
+    -0.4677318334579468,
+    0.8969528675079346
+  ],
+  "Moods": [
+    0.22698846459388733,
+    0.756942868232727
+  ]
+}

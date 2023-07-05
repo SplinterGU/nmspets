@@ -1,0 +1,67 @@
+{
+  "Scale": 1.6010184288024902,
+  "CreatureID": "^GRUNT",
+  "Descriptors": [
+    "^_HEAD_TURTLE",
+    "^_ACC_NONE",
+    "^_ACB_EARS3",
+    "^_BODY_GRUNT",
+    "^_MESH_TURTLE",
+    "^_ACCB_BLONGCLW",
+    "^_TBACC_2",
+    "^597655130"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2251CB8519801889"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xEAEBDFB3DEF5516B"
+  ],
+  "SpeciesSeed": "0x254C0940DB25C28E",
+  "GenusSeed": "0x9FBF29A12FE80A50",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x309E35FC000007",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2251CB8519801889"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685316290,
+  "LastEggTime": 1685316290,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685316290,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.18781471252441406,
+    -0.8608524799346924,
+    -0.07374000549316406
+  ],
+  "Moods": [
+    0.21272556483745575,
+    0.7367183566093445
+  ]
+}

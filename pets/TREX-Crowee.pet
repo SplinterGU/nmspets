@@ -1,0 +1,70 @@
+{
+  "Scale": 1.8724040985107422,
+  "CreatureID": "^TREX",
+  "Descriptors": [
+    "^_TREX_4",
+    "^_HEAD_ALIEN",
+    "^_BLOB_2B",
+    "^_EYES_2",
+    "^_ORBS_1",
+    "^_ANTENNAS_2",
+    "^_BODY_TREX",
+    "^_REXBACK_6N",
+    "^_TAIL_BIRDREX",
+    "^_TBRACC_1",
+    "^2852364867"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x90F8A4FFAD572083"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xFD681B6922AF05E2"
+  ],
+  "SpeciesSeed": "0xC2E9908F39B9AB0E",
+  "GenusSeed": "0xC3A63C3A2DE5278",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": 4920353272918011,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x90F8A4FFAD572083"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "PlayerPredator"
+  },
+  "BirthTime": 1685507463,
+  "LastEggTime": 1685507463,
+  "LastTrustIncreaseTime": 1685507474,
+  "LastTrustDecreaseTime": 1685507463,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.47181713581085205,
+    0.8374626040458679,
+    -0.3809279203414917
+  ],
+  "Moods": [
+    0.025727543979883194,
+    0.08197502791881561
+  ]
+}

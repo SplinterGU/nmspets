@@ -1,0 +1,70 @@
+{
+  "Scale": 2.8068466186523438,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_FISH",
+    "^_FISH_1",
+    "^_FISHEYES_1",
+    "^_FIN_1XRARE",
+    "^_FILLE_1",
+    "^_BODY_STRIDER",
+    "^_SBACC_6",
+    "^_TAIL_6",
+    "^_FINC_1",
+    "^_FILLC_1",
+    "^2114155669"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x26098AEF95329435"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xBC228A2AA816A0A3",
+  "GenusSeed": "0x26E8EAA50E36116C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x30982B04AD55AE",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x26098AEF95329435"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Frozen"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1687875904,
+  "LastEggTime": 1687875904,
+  "LastTrustIncreaseTime": 1687875940,
+  "LastTrustDecreaseTime": 1687875904,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.16814160346984863,
+    -0.753346860408783,
+    0.1826002597808838
+  ],
+  "Moods": [
+    0.02013641968369484,
+    0.05138793960213661
+  ]
+}

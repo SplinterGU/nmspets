@@ -1,0 +1,66 @@
+{
+  "Scale": 1.9141209125518799,
+  "CreatureID": "^BIRD",
+  "Descriptors": [
+    "^_HEAD_BAT",
+    "^_HBAT_0",
+    "^_WINGS_5",
+    "^_BODY_BIRD",
+    "^_TAIL_THIN",
+    "^_TTHINACC_2",
+    "^3166243552"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xB8ED9281B2E6D1D9"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x168242D98C632563"
+  ],
+  "SpeciesSeed": "0x7770A4C4C64A5498",
+  "GenusSeed": "0xAAF1506E3EB08D48",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4692715677816566,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xB8ED9281B2E6D1D9"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Bird"
+  },
+  "BirthTime": 1686222024,
+  "LastEggTime": 1686222024,
+  "LastTrustIncreaseTime": 1686341853,
+  "LastTrustDecreaseTime": 1686222024,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.1867440938949585,
+    0.3196401596069336,
+    0.7761363387107849
+  ],
+  "Moods": [
+    0.018366513773798943,
+    0.03840121254324913
+  ]
+}

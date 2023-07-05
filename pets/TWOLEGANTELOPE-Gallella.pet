@@ -1,0 +1,68 @@
+{
+  "Scale": 0.26420050859451294,
+  "CreatureID": "^TWOLEGANTELOPE",
+  "Descriptors": [
+    "^_HEAD_AEATER",
+    "^_AEHACCS_1",
+    "^_AEHEARA_1",
+    "^_AEHTOPA_1",
+    "^_BODY_DEER",
+    "^_B2LD_3",
+    "^_TAIL_3",
+    "^_FIN_0B",
+    "^183183238"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x63E0501CDE77EEA1"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x4F59B1D48DDF4514",
+  "GenusSeed": "0x8A642157ACDEE2AB",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x21000002C66607",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x63E0501CDE77EEA1"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685892984,
+  "LastEggTime": 1685892984,
+  "LastTrustIncreaseTime": 1685892996,
+  "LastTrustDecreaseTime": 1685892984,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.15871870517730713,
+    -0.8013059496879578,
+    -0.13317269086837769
+  ],
+  "Moods": [
+    0.0054264855571091175,
+    0.01350046694278717
+  ]
+}

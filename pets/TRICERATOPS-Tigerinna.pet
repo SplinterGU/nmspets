@@ -1,0 +1,67 @@
+{
+  "Scale": 1.1030898094177246,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_TRI",
+    "^_TRIHNOSE_9XRARE",
+    "^_TRIHHORN_2",
+    "^_TRIHNECK_NULL",
+    "^_BODY_TURTLE",
+    "^_TLB1_3",
+    "^_TAIL_TURTLE",
+    "^758050107"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xB07FD26B4E4D25A5"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xDB32CD43E7CF389C",
+  "GenusSeed": "0x8AFEE1BEDAE27384",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x607D0405FFB004",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xB07FD26B4E4D25A5"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Swamp"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685471131,
+  "LastEggTime": 1685471131,
+  "LastTrustIncreaseTime": 1685471214,
+  "LastTrustDecreaseTime": 1685471131,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.2557433843612671,
+    -0.7783182263374329,
+    -0.3833911418914795
+  ],
+  "Moods": [
+    0.090041883289814,
+    0.005061622243374586
+  ]
+}

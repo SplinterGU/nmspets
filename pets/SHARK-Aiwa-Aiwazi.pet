@@ -1,0 +1,69 @@
+{
+  "Scale": 2.700000047683716,
+  "CreatureID": "^SHARK",
+  "Descriptors": [
+    "^_SHARK_1",
+    "^_HEAD_SF",
+    "^_SFACC_02",
+    "^_BODY_WHALE",
+    "^_TAIL_CROC1",
+    "^_TAILFIN_4",
+    "^_FINBOT_NULL",
+    "^_TOPACC_NULL",
+    "^_FLIPPERS_3",
+    "^74587684"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x1756326C9264D17B"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xC0E87F8D18B43870"
+  ],
+  "SpeciesSeed": "0x21357BA0E250D614",
+  "GenusSeed": "0x46FDF0D06A250D9",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x307E3A02FF7010",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x1756326C9264D17B"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Shark"
+  },
+  "BirthTime": 1685007432,
+  "LastEggTime": 1685007432,
+  "LastTrustIncreaseTime": 1685008169,
+  "LastTrustDecreaseTime": 1685007432,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    1,
+    1,
+    -1
+  ],
+  "Moods": [
+    0.052097249776124954,
+    0.23154285550117493
+  ]
+}

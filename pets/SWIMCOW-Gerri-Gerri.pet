@@ -1,0 +1,69 @@
+{
+  "Scale": 0.6140010952949524,
+  "CreatureID": "^SWIMCOW",
+  "Descriptors": [
+    "^_TAIL_TURTLE",
+    "^_COW_SWIM",
+    "^_BODY_ROCK",
+    "^_BCA_BLANK2",
+    "^_BRA_ROCKS1XRAR",
+    "^_EXT_MINE2",
+    "^_HEAD_COW",
+    "^_HCE_COWEARS",
+    "^_HCH_LORISHORN",
+    "^3803313997"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x70741C08D9FFB4A1"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x7BC2E1EAEF53F8DB"
+  ],
+  "SpeciesSeed": "0xB97FC93799C6CA92",
+  "GenusSeed": "0x5F7E463FB847803",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x408A12FBFFE006",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x70741C08D9FFB4A1"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1685705902,
+  "LastEggTime": 1685705902,
+  "LastTrustIncreaseTime": 1685705963,
+  "LastTrustDecreaseTime": 1685705902,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.731808066368103,
+    0.3811694383621216,
+    0.3991168737411499
+  ],
+  "Moods": [
+    0.002061324194073677,
+    0.005044425372034311
+  ]
+}

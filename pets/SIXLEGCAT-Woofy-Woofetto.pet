@@ -1,0 +1,68 @@
+{
+  "Scale": 1.3060731887817383,
+  "CreatureID": "^SIXLEGCAT",
+  "Descriptors": [
+    "^_HEAD_WOLF",
+    "^_HWACC_B",
+    "^_HWMIDDLE_C",
+    "^_HWNOSE_NULL",
+    "^_HWEARS_A",
+    "^_BODY_SIXLEGCAT",
+    "^_B6CA_CRAGS",
+    "^_TAIL_WOLF",
+    "^3087550306"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2C1E352ECCF428F5"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x83BC69A6BE77B940",
+  "GenusSeed": "0x75A9D8F958DE91B0",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": 4526706467557371,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2C1E352ECCF428F5"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1686880667,
+  "LastEggTime": 1686880667,
+  "LastTrustIncreaseTime": 1686880678,
+  "LastTrustDecreaseTime": 1686880667,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.4855685234069824,
+    0.6580672264099121,
+    -0.14962562918663025
+  ],
+  "Moods": [
+    0.028853891417384148,
+    0.08571843802928925
+  ]
+}

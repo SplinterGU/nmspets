@@ -1,0 +1,69 @@
+{
+  "Scale": 2.857177495956421,
+  "CreatureID": "^TREX",
+  "Descriptors": [
+    "^_TREX_4",
+    "^_HEAD_RHINO",
+    "^_RHIHACC_12",
+    "^_RHIHACC_11",
+    "^_RHINOHEARS_1",
+    "^_BODY_TREX",
+    "^_REXBACK_2",
+    "^_TAIL_BIRDREX",
+    "^_TBRACC_0",
+    "^1073981953"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x254B73D3466EDEC"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xB388BF6BA37693B3"
+  ],
+  "SpeciesSeed": "0x15E1965302B393D7",
+  "GenusSeed": "0x9AB9D65A965D8DC1",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x51B600013B4A07",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x254B73D3466EDEC"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1685118613,
+  "LastEggTime": 1685118613,
+  "LastTrustIncreaseTime": 1685118636,
+  "LastTrustDecreaseTime": 1685118613,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.27782219648361206,
+    0.8439143896102905,
+    -0.044861674308776855
+  ],
+  "Moods": [
+    0.009598937816917896,
+    0.016655344516038895
+  ]
+}

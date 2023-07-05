@@ -1,0 +1,68 @@
+{
+  "Scale": 0.8445364236831665,
+  "CreatureID": "^FISH",
+  "Descriptors": [
+    "^_FISH_A",
+    "^_TAIL_1",
+    "^_BODY_1",
+    "^_SIDEFIN_5",
+    "^_TAILFIN_2",
+    "^_HEAD_1",
+    "^_H1ACC_NULL",
+    "^_TOPFIN_2",
+    "^3013944573"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xCABED0202CDC64BD"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xCCA0A3650136B34"
+  ],
+  "SpeciesSeed": "0x38ABBD74928D39C1",
+  "GenusSeed": "0xBCA71311F6ED4692",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x61BE08002C999B",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xCABED0202CDC64BD"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Weird"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1687993503,
+  "LastEggTime": 1687993503,
+  "LastTrustIncreaseTime": 1687993579,
+  "LastTrustDecreaseTime": 1687993503,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.41078585386276245,
+    -0.6512473821640015,
+    -0.2667107582092285
+  ],
+  "Moods": [
+    0.01570168323814869,
+    0.040072210133075714
+  ]
+}

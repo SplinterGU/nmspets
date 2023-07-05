@@ -1,0 +1,68 @@
+{
+  "Scale": 0.44762009382247925,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_BUG",
+    "^_SH2ACC_1XRARE",
+    "^_BUGARM_0",
+    "^_ACCBACK_0",
+    "^_BODY_BUG",
+    "^_BBACC_1XRARE",
+    "^_BBARM_NONE",
+    "^_TAIL_5",
+    "^3773341858"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x9F2F2E9C0AB6594A"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x5205A4668CC50532"
+  ],
+  "SpeciesSeed": "0xB996877949469C99",
+  "GenusSeed": "0xAAAD7722A2D74171",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x51A300FDDB569B",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x9F2F2E9C0AB6594A"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685464495,
+  "LastEggTime": 1685464495,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685464495,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.4188861846923828,
+    -0.7421544194221497,
+    0.3566908836364746
+  ],
+  "Moods": [
+    0.2157800942659378,
+    0.7391497492790222
+  ]
+}

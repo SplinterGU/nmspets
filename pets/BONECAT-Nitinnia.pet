@@ -1,0 +1,69 @@
+{
+  "Scale": 0.783146858215332,
+  "CreatureID": "^BONECAT",
+  "Descriptors": [
+    "^_BONECAT_",
+    "^_TYPE_ROUND",
+    "^_ACC_SPIKES",
+    "^_HEAD_A",
+    "^_EYES_B",
+    "^_PLATE_HOLES",
+    "^_HEADHOLES_SHROOM",
+    "^_BODY_CURVESPIKE",
+    "^_LIMBS_A",
+    "^578041765"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2DE593ED5D537754"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x640A81756DF8092"
+  ],
+  "SpeciesSeed": "0x1A15968E7D1A80BE",
+  "GenusSeed": "0x7FE798D9D7D18B26",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x61FA0000E963BB",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2DE593ED5D537754"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1684970656,
+  "LastEggTime": 1684970656,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684970656,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.23395252227783203,
+    0.7789993286132812,
+    0.29077839851379395
+  ],
+  "Moods": [
+    0.21129515767097473,
+    0.828636646270752
+  ]
+}

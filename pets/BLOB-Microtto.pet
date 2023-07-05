@@ -1,0 +1,63 @@
+{
+  "Scale": 0.27225005626678467,
+  "CreatureID": "^BLOB",
+  "Descriptors": [
+    "^_BODY_BLOB",
+    "^_BOC_NULL2",
+    "^_BOB_FRILLFLAPS",
+    "^1186181847"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xAAD5B07E9A07DC66"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x3C15FE91CD7C8D96",
+  "GenusSeed": "0xD72F3E4BE2507C74",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x61A41DFDFFD009",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xAAD5B07E9A07DC66"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685877203,
+  "LastEggTime": 1685877203,
+  "LastTrustIncreaseTime": 1685877236,
+  "LastTrustDecreaseTime": 1685877203,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.7366938591003418,
+    -0.4596136212348938,
+    0.25311923027038574
+  ],
+  "Moods": [
+    0.015766801312565804,
+    0.04048243537545204
+  ]
+}

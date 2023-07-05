@@ -1,0 +1,67 @@
+{
+  "Scale": 0.8076304197311401,
+  "CreatureID": "^ANTELOPE",
+  "Descriptors": [
+    "^_HEAD_ALIEN",
+    "^_HEAD_2",
+    "^_HEADALT_1",
+    "^_CENBASE_NONE",
+    "^_BODY_SKINNY",
+    "^_SKINNYACC_3N1",
+    "^_TAIL_ALIEN4",
+    "^4193798196"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xF02B469FF84D52A6"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x4D4F9C7321B95557",
+  "GenusSeed": "0xCFA5EF7EF9C6A0CA",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x308B00FDDB569B",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xF02B469FF84D52A6"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685241141,
+  "LastEggTime": 1685241141,
+  "LastTrustIncreaseTime": 1685241201,
+  "LastTrustDecreaseTime": 1685241141,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.11062836647033691,
+    -0.6655173897743225,
+    0.41419506072998047
+  ],
+  "Moods": [
+    0.16650518774986267,
+    0.40413129329681396
+  ]
+}

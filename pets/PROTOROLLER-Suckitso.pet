@@ -1,0 +1,63 @@
+{
+  "Scale": 0.6292837262153625,
+  "CreatureID": "^PROTOROLLER",
+  "Descriptors": [
+    "^_STRANGE_ROLL",
+    "^_ROLL_SINGLEJOINT",
+    "^_ROLL_BEETLE",
+    "^2079551530"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2BD218F8BF0798BA"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xA1065198CE7B939C"
+  ],
+  "SpeciesSeed": "0xDA42CD360DC4CBED",
+  "GenusSeed": "0x1902A91115625884",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x60B200FA6E3F51",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2BD218F8BF0798BA"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoRoller"
+  },
+  "BirthTime": 1687750487,
+  "LastEggTime": 1687750487,
+  "LastTrustIncreaseTime": 1687750502,
+  "LastTrustDecreaseTime": 1687750487,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.4108543395996094,
+    -0.8574334383010864,
+    -0.18595480918884277
+  ],
+  "Moods": [
+    0.039538681507110596,
+    0.05006138235330582
+  ]
+}

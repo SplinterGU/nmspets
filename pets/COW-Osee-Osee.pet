@@ -1,0 +1,69 @@
+{
+  "Scale": 0.43485715985298157,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_TURTLE",
+    "^_COW_NORMAL",
+    "^_BODY_COW",
+    "^_BCA_COWHUMP",
+    "^_EXT_BLANKYO3",
+    "^_TYPE_TREXFEET",
+    "^_FEET_1",
+    "^_HEAD_BUG",
+    "^_HBUGACC_2",
+    "^2632985400"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xE5E25FEBDE4A838A"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x740122DE01E24795",
+  "GenusSeed": "0xC1430B2E177DF135",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x40D20705005004",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xE5E25FEBDE4A838A"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685947828,
+  "LastEggTime": 1685947828,
+  "LastTrustIncreaseTime": 1685947847,
+  "LastTrustDecreaseTime": 1685947828,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.15817642211914062,
+    -0.716805100440979,
+    -0.20434969663619995
+  ],
+  "Moods": [
+    0.17095394432544708,
+    0.3728325664997101
+  ]
+}

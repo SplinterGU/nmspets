@@ -1,0 +1,68 @@
+{
+  "Scale": 0.5870941877365112,
+  "CreatureID": "^ANTELOPE",
+  "Descriptors": [
+    "^_HEAD_GDANE",
+    "^_GDPLATEGRP_2",
+    "^_GD2EAR_2N1",
+    "^_GD2PLATE_3N",
+    "^_HGDTEETH_2",
+    "^_BODY_DEER",
+    "^_DEERACC_6N2",
+    "^_TAIL_ALIEN2",
+    "^320143251"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x9DB371DE6D347624"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x1F3736DF5CDD8067",
+  "GenusSeed": "0x5E5F6843CCDD9DDF",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x20D20705005004",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x9DB371DE6D347624"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685946038,
+  "LastEggTime": 1685946038,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685946038,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.4042789936065674,
+    -0.7079927325248718,
+    -0.21756243705749512
+  ],
+  "Moods": [
+    0.20690631866455078,
+    0.8210758566856384
+  ]
+}

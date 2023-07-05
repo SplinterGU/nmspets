@@ -1,0 +1,70 @@
+{
+  "Scale": 1.6009955406188965,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_1",
+    "^_BODY_2",
+    "^_NECK_CRAB",
+    "^_ACCR_BULBSIDE",
+    "^_ACCRC_NONE",
+    "^_LEGS_1",
+    "^_LEGA_1",
+    "^_LEGC_1",
+    "^_LEGB_NULL",
+    "^3551188542"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x6BCA32003D70D04B"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xC0EC78F0D92E17A4"
+  ],
+  "SpeciesSeed": "0xB3F39C8C465A34B7",
+  "GenusSeed": "0x90C2A98DCF3C8F21",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x2193007777C77A",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x6BCA32003D70D04B"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1686705444,
+  "LastEggTime": 1686705444,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1686705444,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.22064214944839478,
+    -0.8322597742080688,
+    -0.5299780368804932
+  ],
+  "Moods": [
+    0.2043095976114273,
+    0.8150326013565063
+  ]
+}

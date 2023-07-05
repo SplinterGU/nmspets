@@ -1,0 +1,62 @@
+{
+  "Scale": 0.6738684177398682,
+  "CreatureID": "^PROTOFLYER",
+  "Descriptors": [
+    "^_STRANGE_FLOAT",
+    "^_FLOAT_ROSEFISH",
+    "^2831021183"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x1CB467CD3A51BD71"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x86102EEC080BE62C"
+  ],
+  "SpeciesSeed": "0xB52951A970586E6C",
+  "GenusSeed": "0x4B71BFE15A2740CE",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x208200F9A2F39A",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x1CB467CD3A51BD71"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoFlyer"
+  },
+  "BirthTime": 1687736825,
+  "LastEggTime": 1687736825,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1687736825,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.2648906111717224,
+    0.7879228591918945,
+    -0.1738223433494568
+  ],
+  "Moods": [
+    0.23905760049819946,
+    0.917141318321228
+  ]
+}

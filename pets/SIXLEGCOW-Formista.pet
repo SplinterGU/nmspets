@@ -1,0 +1,66 @@
+{
+  "Scale": 0.5534587502479553,
+  "CreatureID": "^SIXLEGCOW",
+  "Descriptors": [
+    "^_HEAD_ALIENBIRD",
+    "^_HABACC_BLANK",
+    "^_BODY_6LEGCOW1",
+    "^_B6CA_STEGSPIKES",
+    "^_TAIL_ALIEN1",
+    "^_TAACC_0",
+    "^808129380"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x8F6AC320A55C3685"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x2F56E07F60CF7889"
+  ],
+  "SpeciesSeed": "0xB36F8FD5DC8BB2FC",
+  "GenusSeed": "0xD5E60D08F1D8B407",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x208AFEFBFFE006",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x8F6AC320A55C3685"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1686034761,
+  "LastEggTime": 1686034761,
+  "LastTrustIncreaseTime": 1686034771,
+  "LastTrustDecreaseTime": 1686034761,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.26147496700286865,
+    -0.7682799100875854,
+    -0.2104635238647461
+  ],
+  "Moods": [
+    0.004942540545016527,
+    0.01384690124541521
+  ]
+}

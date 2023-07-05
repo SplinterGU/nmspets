@@ -1,0 +1,72 @@
+{
+  "Scale": 0.7383384704589844,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_COW",
+    "^_COW_FLOATXRARE",
+    "^_WINGS_A",
+    "^_BODY_ROCK",
+    "^_BCA_BLANK2",
+    "^_TYPE_ROCK",
+    "^_BRA_TURTSHELLXRARE",
+    "^_HEAD_ALIENTYPE",
+    "^_WEIRD_HTAIL1",
+    "^_EYETAIL1_A",
+    "^_NOSET1_NONE1",
+    "^_DIVIDE_2",
+    "^1244153555"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x5F2D57048F0EFDB7"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xE60E79DCA7985627",
+  "GenusSeed": "0x8A46D6CB58227224",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x303E09F31306C6",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x5F2D57048F0EFDB7"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1688092139,
+  "LastEggTime": 1688092139,
+  "LastTrustIncreaseTime": 1688092154,
+  "LastTrustDecreaseTime": 1688092139,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.1789332628250122,
+    -0.671771764755249,
+    -0.21524274349212646
+  ],
+  "Moods": [
+    0.008025504648685455,
+    0.02446805126965046
+  ]
+}

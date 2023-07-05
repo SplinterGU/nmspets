@@ -1,0 +1,62 @@
+{
+  "Scale": 1.452094316482544,
+  "CreatureID": "^MOLE",
+  "Descriptors": [
+    "^_DIGGER_C",
+    "^_SPIKES_NULL",
+    "^3580871350"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x80892A38D9B4F18C"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x6403AC8CFECB5341",
+  "GenusSeed": "0x7DEC70044F79149C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4954429543436292,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x80892A38D9B4F18C"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Frozen"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1684447288,
+  "LastEggTime": 1684447288,
+  "LastTrustIncreaseTime": 1684447634,
+  "LastTrustDecreaseTime": 1684447288,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.23151293396949768,
+    -0.7317633032798767,
+    -0.20270174741744995
+  ],
+  "Moods": [
+    0.017409780994057655,
+    0.05281359702348709
+  ]
+}

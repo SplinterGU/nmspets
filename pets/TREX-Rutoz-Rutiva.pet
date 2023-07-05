@@ -1,0 +1,70 @@
+{
+  "Scale": 2.5619187355041504,
+  "CreatureID": "^TREX",
+  "Descriptors": [
+    "^_TREX_4",
+    "^_HEAD_TREX",
+    "^_TRTEETH_3",
+    "^_REXSET_2",
+    "^_REXHEAD_9",
+    "^_REXHEADJ_NULL",
+    "^_BODY_RAT",
+    "^_RATBACK_24OK",
+    "^_TAIL_TOUCAN",
+    "^_TTACC_0",
+    "^3299387670"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD3DE064703E4D9A5"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x9640313965EE018",
+  "GenusSeed": "0x97B405D83969FAEF",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x21A800FA90A0DA",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD3DE064703E4D9A5"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1684811924,
+  "LastEggTime": 1684811924,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684811924,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.1707976758480072,
+    0.6947058439254761,
+    0.24788975715637207
+  ],
+  "Moods": [
+    0.20844385027885437,
+    0.8217179775238037
+  ]
+}

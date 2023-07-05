@@ -1,0 +1,69 @@
+{
+  "Scale": 0.5757960677146912,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_COW",
+    "^_COW_NORMAL",
+    "^_BODY_COW",
+    "^_BCA_COWHUMP",
+    "^_EXT_BLANKYO3",
+    "^_TYPE_COW",
+    "^_ACC_NONE",
+    "^_HEAD_REX",
+    "^_HREXACC_1",
+    "^329519574"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x8647AEB0C910131B"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xE0200A1672F51FA3",
+  "GenusSeed": "0xD08E2794A37A3DA2",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4666331639694888,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x8647AEB0C910131B"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684798110,
+  "LastEggTime": 1684798110,
+  "LastTrustIncreaseTime": 1684798197,
+  "LastTrustDecreaseTime": 1684798110,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.45661550760269165,
+    -0.7759168744087219,
+    -0.292890727519989
+  ],
+  "Moods": [
+    0.10586466640233994,
+    0.29117169976234436
+  ]
+}

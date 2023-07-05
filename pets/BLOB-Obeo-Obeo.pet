@@ -1,0 +1,64 @@
+{
+  "Scale": 0.9656045436859131,
+  "CreatureID": "^BLOB",
+  "Descriptors": [
+    "^_BODY_PLANT",
+    "^_FLOWER_2",
+    "^_PLANT_3",
+    "^_EYEBS_1",
+    "^2714703733"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x4D6DB24D50213ABD"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xC17D5B0D233DE4A7",
+  "GenusSeed": "0xF04CFF33F158105A",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x41A800FA90A0DA",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x4D6DB24D50213ABD"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684829882,
+  "LastEggTime": 1684829882,
+  "LastTrustIncreaseTime": 1684830751,
+  "LastTrustDecreaseTime": 1684829882,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.7637021541595459,
+    -0.3028002381324768,
+    0.4194481372833252
+  ],
+  "Moods": [
+    0.021488605067133904,
+    0.04754498600959778
+  ]
+}

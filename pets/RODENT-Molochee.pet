@@ -1,0 +1,68 @@
+{
+  "Scale": 2.117147922515869,
+  "CreatureID": "^RODENT",
+  "Descriptors": [
+    "^_HEAD_LIZARD",
+    "^__HLACC_0",
+    "^_HLNECK_0",
+    "^_HLEARS_0",
+    "^_HLACC_2",
+    "^_BODY_LIZARD",
+    "^_LIZBOD_4",
+    "^_TAIL_SLOTH",
+    "^3466535469"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x32BEE6AF65DE4BEF"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xB983C4000C307D8A"
+  ],
+  "SpeciesSeed": "0xC69293523DA462DA",
+  "GenusSeed": "0x2FFC2EB8EDC3C388",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x509400FFC9C628",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x32BEE6AF65DE4BEF"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Weird"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1684793770,
+  "LastEggTime": 1684793770,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684793770,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.2651485204696655,
+    -0.7798538208007812,
+    -0.36350345611572266
+  ],
+  "Moods": [
+    0.21698012948036194,
+    0.8550349473953247
+  ]
+}

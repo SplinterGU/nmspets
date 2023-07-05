@@ -1,0 +1,66 @@
+{
+  "Scale": 0.578087329864502,
+  "CreatureID": "^SIXLEGCOW",
+  "Descriptors": [
+    "^_HEAD_COW",
+    "^_HCE_BLANK",
+    "^_HCH_BLANK",
+    "^_BODY_6LEGROCK1",
+    "^_B6RA_STEGSPIKES",
+    "^_TAIL_TURTLE1",
+    "^1076157702"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x8ED87A3FF7918D"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x24B9C03974CEED38",
+  "GenusSeed": "0xA2CAEC79018D7E49",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x30330002C66607",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x8ED87A3FF7918D"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1684224124,
+  "LastEggTime": 1684399780,
+  "LastTrustIncreaseTime": 1684422690,
+  "LastTrustDecreaseTime": 1684396924,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.7931405305862427,
+    -0.48025375604629517,
+    0.4544258713722229
+  ],
+  "Moods": [
+    0.003513380652293563,
+    0.008447789587080479
+  ]
+}

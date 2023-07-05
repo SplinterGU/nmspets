@@ -1,0 +1,67 @@
+{
+  "Scale": 2.258495330810547,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_TRI",
+    "^_TRIHNOSE_1",
+    "^_TRIHHORN_7",
+    "^_TRIHNECK_1",
+    "^_BODY_RHINO",
+    "^_RHB1_0",
+    "^_TAIL_TURTLE",
+    "^2231229608"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x7BB65FDA3A8ABF34"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x2B98966E36653503"
+  ],
+  "SpeciesSeed": "0x97B34CB0DFB6FFCC",
+  "GenusSeed": "0x7BE06CC9C0C2879F",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x30860003C66605",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x7BB65FDA3A8ABF34"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684900301,
+  "LastEggTime": 1684900301,
+  "LastTrustIncreaseTime": 1684900308,
+  "LastTrustDecreaseTime": 1684900301,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.15786051750183105,
+    -0.41759634017944336,
+    0.7273663282394409
+  ],
+  "Moods": [
+    0.00985050667077303,
+    0.017146186903119087
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Scale": 0.7618261575698853,
+  "CreatureID": "^FLOATSPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_NULL",
+    "^_BODY_2",
+    "^_NECK_BUG",
+    "^_ACC1_BULBTOP",
+    "^_ACC2_BULBHAT",
+    "^_ACC3_NONE",
+    "^_ALTH_3",
+    "^_LEGS_2",
+    "^3745612129"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xB15142C5FB7DCD9C"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x215EC13AACC020F5"
+  ],
+  "SpeciesSeed": "0xE162F832CF74247D",
+  "GenusSeed": "0x13C3FD8773D3F4CF",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x21000002C66607",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xB15142C5FB7DCD9C"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685892956,
+  "LastEggTime": 1685892956,
+  "LastTrustIncreaseTime": 1685892970,
+  "LastTrustDecreaseTime": 1685892956,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.6148432493209839,
+    -0.16725820302963257,
+    -0.2036445140838623
+  ],
+  "Moods": [
+    0.005762760061770678,
+    0.017488250508904457
+  ]
+}

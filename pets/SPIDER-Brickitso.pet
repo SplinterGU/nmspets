@@ -1,0 +1,77 @@
+{
+  "Scale": 1.4972387552261353,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_2",
+    "^_BODY_2",
+    "^_NECK_MANTIS",
+    "^_HEAD_MANTIS",
+    "^_MHACC_1",
+    "^_MEYES_1",
+    "^_MANTENNA_1",
+    "^_MARM_A",
+    "^_TAIL_NULL",
+    "^_ACM_BULBSIDE",
+    "^_ACMB_SPIKES",
+    "^_LEGS_3",
+    "^_LEGGC_1",
+    "^_LEGGA_1",
+    "^_LEGGD_1",
+    "^_LEGGB_1",
+    "^1272401348"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x5F9CC6BA6F2178FD"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x2471EA0274376A91"
+  ],
+  "SpeciesSeed": "0x337A7E11DAA0F3E5",
+  "GenusSeed": "0xF04CFF33F158105A",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x41A800FA90A0DA",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x5F9CC6BA6F2178FD"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684829530,
+  "LastEggTime": 1684829530,
+  "LastTrustIncreaseTime": 1684829541,
+  "LastTrustDecreaseTime": 1684829530,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.3202176094055176,
+    -0.4323880076408386,
+    -0.7860404253005981
+  ],
+  "Moods": [
+    0.044186823070049286,
+    0.07733240723609924
+  ]
+}

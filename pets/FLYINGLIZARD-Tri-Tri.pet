@@ -1,0 +1,65 @@
+{
+  "Scale": 1.396711826324463,
+  "CreatureID": "^FLYINGLIZARD",
+  "Descriptors": [
+    "^_HEAD_LIZARD",
+    "^_HLACC_2",
+    "^_WINGS_EAGLE",
+    "^_BODY_EAGLE",
+    "^_TAIL_EAGLE",
+    "^1944836920"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x1220C33962FCEE04"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x9D69BA2723E05FE6"
+  ],
+  "SpeciesSeed": "0xC45D433D357AC5C5",
+  "GenusSeed": "0xD00BADBFAF11A6E4",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x40982B04AD55AE",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x1220C33962FCEE04"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "FlyingLizard"
+  },
+  "BirthTime": 1687879204,
+  "LastEggTime": 1687879204,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1687879204,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.7594361901283264,
+    -0.16845864057540894,
+    0.32285594940185547
+  ],
+  "Moods": [
+    0.22227850556373596,
+    0.855888843536377
+  ]
+}

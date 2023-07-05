@@ -1,0 +1,60 @@
+{
+  "Scale": 1,
+  "CreatureID": "^ROBO_PET",
+  "Descriptors": [
+    "^366051701"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x4CE52B371BB24426"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xB0E7086716884B51",
+  "GenusSeed": "0xDFF8D2E0D9D12F4A",
+  "CustomSpeciesName": "^UI_MINIROBO_SPECIES",
+  "Predator": false,
+  "UA": 4559674766943751,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    true,
+    "0x707394ABEF33C9F9"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x4CE52B371BB24426"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "MiniRobo"
+  },
+  "BirthTime": 1682264805,
+  "LastEggTime": 1682699714,
+  "LastTrustIncreaseTime": 1682699711,
+  "LastTrustDecreaseTime": 1682264805,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.800000011920929,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    1,
+    1,
+    0.550000011920929
+  ],
+  "Moods": [
+    0.005460052285343409,
+    0.012744096107780933
+  ]
+}

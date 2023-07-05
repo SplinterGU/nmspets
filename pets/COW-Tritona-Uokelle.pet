@@ -1,0 +1,73 @@
+{
+  "Scale": 0.8459113240242004,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_THIN",
+    "^_COW_NORMAL",
+    "^_BODY_COW",
+    "^_BCA_COWHUMP",
+    "^_EXT_BLANKYO3",
+    "^_TYPE_ORBCOW",
+    "^_ORBS_1",
+    "^_HEAD_ALIENTYPE",
+    "^_WEIRD_LONG",
+    "^_FACELONG_1",
+    "^_EARSL1_A",
+    "^_EYESL1_NONE",
+    "^_DIVIDE_2",
+    "^1027446059"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD704ACC7650DC428"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xA9260E9FC23F7F0D",
+  "GenusSeed": "0x2713942F3740686E",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x50EB26FCFFE008",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD704ACC7650DC428"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Weird"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685601173,
+  "LastEggTime": 1685601173,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685601173,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.3621845245361328,
+    -0.7563536763191223,
+    0.4806861877441406
+  ],
+  "Moods": [
+    0.2103092074394226,
+    0.8245840072631836
+  ]
+}

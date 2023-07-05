@@ -1,0 +1,67 @@
+{
+  "Scale": 1.119539737701416,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_TRI",
+    "^_TRIHNOSE_0XRARE",
+    "^_TRIHHORN_2",
+    "^_TRIHNECK_NULL",
+    "^_BODY_DIPLO",
+    "^_DBACC_0",
+    "^_TAIL_TURTLE",
+    "^805462489"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xC3F597D4B87AD096"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xC200A50CE0C8D832"
+  ],
+  "SpeciesSeed": "0x1DD8A29AC703BA69",
+  "GenusSeed": "0x93730DA52709ABCD",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x203E00000FC013",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xC3F597D4B87AD096"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1685231469,
+  "LastEggTime": 1685231469,
+  "LastTrustIncreaseTime": 1685231477,
+  "LastTrustDecreaseTime": 1685231469,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.4072221517562866,
+    -0.7091578245162964,
+    0.15669190883636475
+  ],
+  "Moods": [
+    0.006764007732272148,
+    0.01580958627164364
+  ]
+}

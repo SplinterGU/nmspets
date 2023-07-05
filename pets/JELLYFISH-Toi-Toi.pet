@@ -1,0 +1,64 @@
+{
+  "Scale": 0.8240000009536743,
+  "CreatureID": "^JELLYFISH",
+  "Descriptors": [
+    "^_PROC_JELLYFISH",
+    "^_FBBODY_2",
+    "^_BOTTOM_4",
+    "^_TOP_1",
+    "^3016214132"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x4EB76A2B8E7B35C2"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xA94E5532E25E35F7"
+  ],
+  "SpeciesSeed": "0x493A80ED344D5FE6",
+  "GenusSeed": "0xBAA88DE0A90CCF8C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4511296255325702,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x4EB76A2B8E7B35C2"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Jellyfish"
+  },
+  "BirthTime": 1687319770,
+  "LastEggTime": 1687319770,
+  "LastTrustIncreaseTime": 1687319792,
+  "LastTrustDecreaseTime": 1687319770,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.23618274927139282,
+    -0.20331311225891113,
+    0.6272192597389221
+  ],
+  "Moods": [
+    0.0029565715231001377,
+    0.00674135098233819
+  ]
+}

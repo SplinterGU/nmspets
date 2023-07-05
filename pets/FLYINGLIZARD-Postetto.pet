@@ -1,0 +1,64 @@
+{
+  "Scale": 2.5,
+  "CreatureID": "^FLYINGLIZARD",
+  "Descriptors": [
+    "^_HEAD_LIZARD",
+    "^_HLACC_3",
+    "^_WINGS_LIZARD",
+    "^_BODY_LIZARD",
+    "^_TAIL_EAGLE"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x1EAC23BE0A24716F"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xFEA6707C350BBFB"
+  ],
+  "SpeciesSeed": "0xCE4567F8BFC314B3",
+  "GenusSeed": "0x614F6F3E436D212B",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x201300FF908F1F",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x8F5D2567AE55E3AC"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1683000875,
+  "LastEggTime": 1684010868,
+  "LastTrustIncreaseTime": 1684007889,
+  "LastTrustDecreaseTime": 1684007875,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.8120534420013428,
+    0.8028392791748047,
+    -0.9992711544036865
+  ],
+  "Moods": [
+    0.003052415559068322,
+    0.013560534454882145
+  ]
+}

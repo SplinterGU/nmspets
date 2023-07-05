@@ -1,0 +1,64 @@
+{
+  "Scale": 2.9788432121276855,
+  "CreatureID": "^BLOB",
+  "Descriptors": [
+    "^_BODY_PLANT",
+    "^_FLOWER_1",
+    "^_PLANT_2",
+    "^_EYEBS_1",
+    "^4103534787"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x92D60AB93B5C9505"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xB099D3E988EC67B1"
+  ],
+  "SpeciesSeed": "0x893C2B0F407E673A",
+  "GenusSeed": "0xAE0257084D5073C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x219A0705005004",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x92D60AB93B5C9505"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684444081,
+  "LastEggTime": 1684444081,
+  "LastTrustIncreaseTime": 1684444169,
+  "LastTrustDecreaseTime": 1684444081,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.1736288070678711,
+    -0.7810748219490051,
+    0.47829198837280273
+  ],
+  "Moods": [
+    0.008037585765123367,
+    0.017373761162161827
+  ]
+}

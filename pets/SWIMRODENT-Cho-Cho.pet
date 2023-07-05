@@ -1,0 +1,66 @@
+{
+  "Scale": 1.153576374053955,
+  "CreatureID": "^SWIMRODENT",
+  "Descriptors": [
+    "^_HEAD_RODENT",
+    "^_RHACC_1",
+    "^_HREARS_1",
+    "^_BODY_LIZARD",
+    "^_LIZBOD_1",
+    "^_TAIL_MONKEY",
+    "^2093679636"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x3EE149B50D271D8B"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x34B6FB35D4B80B"
+  ],
+  "SpeciesSeed": "0x9298CA97FCBCBB65",
+  "GenusSeed": "0xEFE228C964F2128B",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x31A800FA90A0DA",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x3EE149B50D271D8B"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1684861761,
+  "LastEggTime": 1684861761,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684861761,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.6891895532608032,
+    0.23934364318847656,
+    -0.33194732666015625
+  ],
+  "Moods": [
+    0.2142752707004547,
+    0.7456561326980591
+  ]
+}

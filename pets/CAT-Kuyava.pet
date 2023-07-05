@@ -1,0 +1,68 @@
+{
+  "Scale": 1.1000378131866455,
+  "CreatureID": "^CAT",
+  "Descriptors": [
+    "^_BODY_CAT",
+    "^_SHAPE_1",
+    "^_HEAD_LIZARD",
+    "^_HLACC_B",
+    "^_HLTOP_F",
+    "^_TAIL_CAT",
+    "^_MESH_WOLF",
+    "^_BCW_7",
+    "^179468834"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x45F9DA366303DAB0"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x8FFCC907E11726BD",
+  "GenusSeed": "0x5808BB1390B56735",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x51F200000FF011",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x45F9DA366303DAB0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Frozen"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1684733733,
+  "LastEggTime": 1684733733,
+  "LastTrustIncreaseTime": 1684733752,
+  "LastTrustDecreaseTime": 1684733733,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.22156447172164917,
+    0.7950067520141602,
+    0.2633035182952881
+  ],
+  "Moods": [
+    0.0039266436360776424,
+    0.010047485120594501
+  ]
+}

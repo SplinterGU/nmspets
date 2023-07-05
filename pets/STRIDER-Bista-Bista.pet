@@ -1,0 +1,67 @@
+{
+  "Scale": 4.590037822723389,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_FISH",
+    "^_FISH_1",
+    "^_FISHEYES_1",
+    "^_FIN_NONE",
+    "^_BODY_STRIDER",
+    "^_SBACC_1",
+    "^_TAIL_1",
+    "^2707893026"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x3BF597EC544E9FAB"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x55BFC6643F07D3E2"
+  ],
+  "SpeciesSeed": "0x3AC21DF8E31A1F6",
+  "GenusSeed": "0x3523539587B555F",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x20860003C66605",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x3BF597EC544E9FAB"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1684949870,
+  "LastEggTime": 1684949870,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1684949870,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.33814889192581177,
+    -0.16006672382354736,
+    0.7783173322677612
+  ],
+  "Moods": [
+    0.21315880119800568,
+    0.8287051320075989
+  ]
+}

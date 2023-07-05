@@ -1,0 +1,69 @@
+{
+  "Scale": 5.016672611236572,
+  "CreatureID": "^GRUNT",
+  "Descriptors": [
+    "^_HEAD_TURTLE",
+    "^_ACC_1",
+    "^_ACC3_NONE",
+    "^_ACB_EARS2",
+    "^_BODY_GRUNT",
+    "^_MESH_GRUNT",
+    "^_BGH_CLAWSLONG",
+    "^_BGF_CLAWSLONG",
+    "^_BGM_NONE",
+    "^3304204694"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD3B87C71CA3A30AD"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xB0D4CBEF9EB7FA31"
+  ],
+  "SpeciesSeed": "0x7DC9C90E4D94014D",
+  "GenusSeed": "0x7F68CE35846F04B4",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x51A300FDDB569B",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD3B87C71CA3A30AD"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685464728,
+  "LastEggTime": 1685464728,
+  "LastTrustIncreaseTime": 1685466001,
+  "LastTrustDecreaseTime": 1685464728,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.09857743978500366,
+    -0.7381635904312134,
+    0.16597330570220947
+  ],
+  "Moods": [
+    0.0071355076506733894,
+    0.018875282257795334
+  ]
+}

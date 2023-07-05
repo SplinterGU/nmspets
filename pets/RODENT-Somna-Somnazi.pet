@@ -1,0 +1,66 @@
+{
+  "Scale": 1.9712297916412354,
+  "CreatureID": "^RODENT",
+  "Descriptors": [
+    "^_HEAD_TURTLE",
+    "^_THACC_4",
+    "^_BODY_RODENT",
+    "^_TAZBACK_2",
+    "^_TAIL_LIZARD",
+    "^_TAILACC_0",
+    "^3136551056"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x7FCD14A1CDF1D9EE"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xE9115A90F8A206BF"
+  ],
+  "SpeciesSeed": "0x76E2D86DF13AB3ED",
+  "GenusSeed": "0x29CEA19C9FDABA33",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x20D50905004FFB",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x7FCD14A1CDF1D9EE"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685505507,
+  "LastEggTime": 1685505507,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1685505507,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.8642765283584595,
+    -0.5302647352218628,
+    0.2646545171737671
+  ],
+  "Moods": [
+    0.20333407819271088,
+    0.8085268139839172
+  ]
+}

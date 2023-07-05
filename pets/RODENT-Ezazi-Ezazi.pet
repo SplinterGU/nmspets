@@ -1,0 +1,66 @@
+{
+  "Scale": 2.9313879013061523,
+  "CreatureID": "^RODENT",
+  "Descriptors": [
+    "^_HEAD_TAZ",
+    "^_HTAZEARS_1",
+    "^_HTAZACC_1",
+    "^_BODY_RODENT",
+    "^_TAZBACK_3",
+    "^_TAIL_BIRD",
+    "^3898726453"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x2A6E9FDACBB6AFE0"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xF621D21E1E8D365",
+  "GenusSeed": "0x55F2182DF785740B",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x51000002C66607",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x2A6E9FDACBB6AFE0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1685888889,
+  "LastEggTime": 1685888889,
+  "LastTrustIncreaseTime": 1685888903,
+  "LastTrustDecreaseTime": 1685888889,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.19584178924560547,
+    -0.6987588405609131,
+    0.19988131523132324
+  ],
+  "Moods": [
+    0.010658960789442062,
+    0.02786770462989807
+  ]
+}

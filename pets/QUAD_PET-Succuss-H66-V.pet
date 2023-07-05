@@ -1,0 +1,60 @@
+{
+  "Scale": 1.100000023841858,
+  "CreatureID": "^QUAD_PET",
+  "Descriptors": [
+    "^3997382721"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x0"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x4810114CF33DCF87",
+  "GenusSeed": "0x5299C8590C513146",
+  "CustomSpeciesName": "^UI_PETQUAD_SPECIES",
+  "Predator": false,
+  "UA": 4534385986639606,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    true,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Quad"
+  },
+  "BirthTime": 1686344542,
+  "LastEggTime": 1686344542,
+  "LastTrustIncreaseTime": 1686344552,
+  "LastTrustDecreaseTime": 1686344542,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.17841120064258575,
+    0.8653435707092285,
+    0.9665831923484802
+  ],
+  "Moods": [
+    0.005810359492897987,
+    0.011215215548872948
+  ]
+}

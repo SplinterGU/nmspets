@@ -1,0 +1,63 @@
+{
+  "Scale": 1.0008420944213867,
+  "CreatureID": "^PROTOROLLER",
+  "Descriptors": [
+    "^_STRANGE_ROLL",
+    "^_ROLL_SINGLEJOINT",
+    "^_ROLL_FATBUG",
+    "^2774317676"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xAA7ABAD30418F2B3"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x9DBCCD70E55E2BB0"
+  ],
+  "SpeciesSeed": "0xB7675B6102154012",
+  "GenusSeed": "0x6A421788D891D8AD",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x31EC00000FD013",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xAA7ABAD30418F2B3"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoRoller"
+  },
+  "BirthTime": 1685201767,
+  "LastEggTime": 1685201767,
+  "LastTrustIncreaseTime": 1685201782,
+  "LastTrustDecreaseTime": 1685201767,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.28638318181037903,
+    -0.774111270904541,
+    0.21718668937683105
+  ],
+  "Moods": [
+    0.008384759537875652,
+    0.02062920294702053
+  ]
+}

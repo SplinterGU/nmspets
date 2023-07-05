@@ -1,0 +1,68 @@
+{
+  "Scale": 12,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_FLATHEAD",
+    "^_FHACC_4",
+    "^_BODY_BUG",
+    "^_BBACC_1XRARE",
+    "^_BBARM_NONE",
+    "^_TAIL_6",
+    "^_FINC_1",
+    "^_FILLC_NONE",
+    "^3145884320"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x5BA7697C577B7D2F"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x6BE308D28D5CBA0D",
+  "GenusSeed": "0x1C421CE6DF6031D1",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4559674766943751,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x5BA7697C577B7D2F"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1682445441,
+  "LastEggTime": 1682445441,
+  "LastTrustIncreaseTime": 1683685015,
+  "LastTrustDecreaseTime": 1682445441,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.8500000238418579,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    1,
+    1,
+    0.4192567765712738
+  ],
+  "Moods": [
+    0.040715333074331284,
+    0.016497226431965828
+  ]
+}

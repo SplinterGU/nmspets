@@ -1,0 +1,71 @@
+{
+  "Scale": 0.8211826682090759,
+  "CreatureID": "^ROBOTANTELOPE",
+  "Descriptors": [
+    "^_HEAD_CURVEB",
+    "^_CURVEBACC_2",
+    "^_ACC_BACKCANISTERS",
+    "^_RIBCAGE_1",
+    "^_LEGSBACK_1",
+    "^_PLATING_1",
+    "^_CORDSLEGBACK_",
+    "^_BODY_1",
+    "^_LEGSFRONT_1",
+    "^_CORDSLEGFRONT_",
+    "^_SHOULDERACC_CANISTERS",
+    "^405308919"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x5C007D81057C9461"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x92DF672F568890BC"
+  ],
+  "SpeciesSeed": "0xBCEAB87B0D4D0661",
+  "GenusSeed": "0xFFBF588866A3FCB2",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x50F73209A44E05",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x5C007D81057C9461"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Swamp"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1687510086,
+  "LastEggTime": 1687510086,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1687510086,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.3260350823402405,
+    -0.8296529054641724,
+    -0.6136965751647949
+  ],
+  "Moods": [
+    0.20972880721092224,
+    0.8352875709533691
+  ]
+}

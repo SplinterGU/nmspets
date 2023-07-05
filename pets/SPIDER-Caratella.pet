@@ -1,0 +1,65 @@
+{
+  "Scale": 2,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_NULL",
+    "^_BODY_1XRARE",
+    "^_TRUNK_NULL2",
+    "^_LEGS_2",
+    "^2643233377"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xBB31EC75061A9B07"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x58241D535CC8E84A",
+  "GenusSeed": "0x6702D72A4C8CE5B3",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4559674766943751,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xBB31EC75061A9B07"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1682354322,
+  "LastEggTime": 0,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 0,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.6000000238418579,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.5924919843673706,
+    -0.07807300239801407,
+    0.17488600313663483
+  ],
+  "Moods": [
+    0.2129649966955185,
+    0.010346000082790852
+  ]
+}

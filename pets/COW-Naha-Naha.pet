@@ -1,0 +1,72 @@
+{
+  "Scale": 0.6702800989151001,
+  "CreatureID": "^COW",
+  "Descriptors": [
+    "^_TAIL_THIN",
+    "^_COW_HINDXRARE",
+    "^_BODY_ROCK",
+    "^_BCA_BLANK2",
+    "^_TYPE_ROCK",
+    "^_BRA_ROCKS1XRARE",
+    "^_EXT_BLANKYO2",
+    "^_HEAD_ALIENTYPE",
+    "^_WEIRD_HTAIL1",
+    "^_EYETAIL1_B",
+    "^_NOSET1_A",
+    "^_DIVIDE_1",
+    "^3368363525"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x56A0F63EC43148EA"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xB5C9432AFF67745C",
+  "GenusSeed": "0x1AD550DEE05E1776",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x203F09FF629241",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x56A0F63EC43148EA"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1688096743,
+  "LastEggTime": 1688096743,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1688096743,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.19490474462509155,
+    -0.7013523578643799,
+    -0.339579701423645
+  ],
+  "Moods": [
+    0.20498649775981903,
+    0.8159984350204468
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "Scale": 1.500000238418579,
+  "CreatureID": "^WEIRDROLL",
+  "Descriptors": [
+    "^_WEIRD_ROLL",
+    "^_ROLL_SINGLEJOI",
+    "^_ROLL_STRUCTURE",
+    "^2774317676"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x98DD513A5BEADDE0"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x7CB2F59D8900AE"
+  ],
+  "SpeciesSeed": "0x89742BB10FD51DE2",
+  "GenusSeed": "0x98B1C95929DC55EA",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": 4964299258418843,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x98DD513A5BEADDE0"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Weird"
+  },
+  "CreatureType": {
+    "CreatureType": "Weird"
+  },
+  "BirthTime": 1685460114,
+  "LastEggTime": 1685460114,
+  "LastTrustIncreaseTime": 1685460126,
+  "LastTrustDecreaseTime": 1685460114,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.4925890862941742,
+    0.7052378058433533,
+    0.30158722400665283
+  ],
+  "Moods": [
+    0.14472980797290802,
+    0.364824503660202
+  ]
+}

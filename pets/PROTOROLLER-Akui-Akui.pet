@@ -1,0 +1,64 @@
+{
+  "Scale": 0.8207470774650574,
+  "CreatureID": "^PROTOROLLER",
+  "Descriptors": [
+    "^_STRANGE_ROLL",
+    "^_ROLL_SINGLEJOINT",
+    "^_ROLL_ENGERYBALL",
+    "^_INTERNAL_A",
+    "^3305856228"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x777B75EE35A02A1E"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x8BC3EFCBE37817BE"
+  ],
+  "SpeciesSeed": "0xBDDABB5312F44A22",
+  "GenusSeed": "0x8F630E911BD6C891",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4820263254294270,
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x777B75EE35A02A1E"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Scorched"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoRoller"
+  },
+  "BirthTime": 1684299065,
+  "LastEggTime": 1684299065,
+  "LastTrustIncreaseTime": 1684299075,
+  "LastTrustDecreaseTime": 1684299065,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 0.75,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.2737627327442169,
+    -0.7785321474075317,
+    -0.33221709728240967
+  ],
+  "Moods": [
+    0.006945709232240915,
+    0.022215843200683594
+  ]
+}

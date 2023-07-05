@@ -1,0 +1,65 @@
+{
+  "Scale": 0.3317188620567322,
+  "CreatureID": "^FLYINGSNAKE",
+  "Descriptors": [
+    "^_SNAKE_A",
+    "^_SET_B",
+    "^_HEAD_SANDSNAKE",
+    "^_BODY_LEECH",
+    "^_TAIL_SANDSNAKE",
+    "^2603374308"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x8402EE0CB2FDDBD1"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xBCBB9301995882A6"
+  ],
+  "SpeciesSeed": "0xBF57BEB9DB1B6F71",
+  "GenusSeed": "0x7E9B4CCC0B501087",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 5044559349272595,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x8402EE0CB2FDDBD1"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Barren"
+  },
+  "CreatureType": {
+    "CreatureType": "FlyingSnake"
+  },
+  "BirthTime": 1685198541,
+  "LastEggTime": 1685198541,
+  "LastTrustIncreaseTime": 1685198565,
+  "LastTrustDecreaseTime": 1685198541,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.8238703012466431,
+    0.18609988689422607,
+    -0.6293091177940369
+  ],
+  "Moods": [
+    0.08194448798894882,
+    0.2979888319969177
+  ]
+}

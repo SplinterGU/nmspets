@@ -1,0 +1,68 @@
+{
+  "Scale": 1.9740933179855347,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_HIPPO",
+    "^_HIPEARS_2",
+    "^_HHACC_0",
+    "^_HHEAD_2",
+    "^_HHHORNS_3",
+    "^_BODY_TRI",
+    "^_TRIBACK_4XRARE",
+    "^_TAIL_TRI",
+    "^739103133"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xBBF2A998F1C619EB"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x10CA33E4D5916A6D",
+  "GenusSeed": "0x33CB3BFF32681550",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": 4967593584764662,
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xBBF2A998F1C619EB"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Frozen"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1686415362,
+  "LastEggTime": 1686415362,
+  "LastTrustIncreaseTime": 1686415376,
+  "LastTrustDecreaseTime": 1686415362,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.22514265775680542,
+    -0.6205548048019409,
+    0.36102795600891113
+  ],
+  "Moods": [
+    0.04273238033056259,
+    0.008961227722465992
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Scale": 0.34232547879219055,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_RHINO",
+    "^_RHIHORNS_0",
+    "^_RHIHEARS_1",
+    "^_RHIHACC_0",
+    "^_BODY_TURTLE",
+    "^_TLB1_2",
+    "^_TAIL_TURTLE",
+    "^3190250216"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xC6B793669E20E228"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x2B66D5A71EC839E5",
+  "GenusSeed": "0xC036770C174EB319",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x208AFEFBFFE006",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xC6B793669E20E228"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Radioactive"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1686034847,
+  "LastEggTime": 1686034847,
+  "LastTrustIncreaseTime": 1686034866,
+  "LastTrustDecreaseTime": 1686034847,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.07563966512680054,
+    -0.7472320199012756,
+    -0.13083848357200623
+  ],
+  "Moods": [
+    0.01861071214079857,
+    0.054004471749067307
+  ]
+}
