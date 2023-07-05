@@ -119,6 +119,7 @@
       color: white;
     }
   </style>
+  <script src="petslst.js"></script>
 </head>
 <body>
   <div>
@@ -229,86 +230,80 @@
 
       var thumbnailGallery = document.getElementById('thumbnailGallery');
 
-      // Current directory path on the server
-      var petsDirectory = './pets/';
+      // Create sections in the gallery for each category
+      var categories = [];
+      images.forEach(function(image) {
+        var category = getCategory(image);
+        if (!categories.includes(category)) {
+          categories.push(category);
 
-      // Get all images from the directory
-      fetchImages(petsDirectory, function(images) {
-        // Create sections in the gallery for each category
-        var categories = [];
-        images.forEach(function(image) {
-          var category = getCategory(image);
-          if (!categories.includes(category)) {
-            categories.push(category);
+          var section = document.createElement('div');
+          section.classList.add('section');
 
-            var section = document.createElement('div');
-            section.classList.add('section');
+          var sectionHeader = document.createElement('div');
+          sectionHeader.classList.add('section-header');
 
-            var sectionHeader = document.createElement('div');
-            sectionHeader.classList.add('section-header');
+          var colapseBtn = document.createElement('button');
+          colapseBtn.classList.add('collapse-button');
+          colapseBtn.textContent = '+';
+          sectionHeader.appendChild(colapseBtn);
 
-            var colapseBtn = document.createElement('button');
-            colapseBtn.classList.add('collapse-button');
-            colapseBtn.textContent = '+';
-            sectionHeader.appendChild(colapseBtn);
+          var title = document.createElement('h2');
+          title.classList.add('section-title');
+          title.textContent = category;
+          sectionHeader.appendChild(title);
 
-            var title = document.createElement('h2');
-            title.classList.add('section-title');
-            title.textContent = category;
-            sectionHeader.appendChild(title);
+          section.appendChild(sectionHeader);
 
-            section.appendChild(sectionHeader);
+          thumbnailGallery.appendChild(section);
+        }
+      });
 
-            thumbnailGallery.appendChild(section);
+      var sections = thumbnailGallery.getElementsByClassName('section');
+
+      // Add thumbnails to each corresponding section
+      categories.forEach(function(category) {
+        for (var i = 0; i < sections.length; i++) {
+          var section = sections[i];
+          var title = section.querySelector('.section-title');
+          if (title.textContent === category) {
+            images.forEach(function(image) {
+              var imageCategory = getCategory(image);
+              if (imageCategory === category) {
+                var thumbnail = document.createElement('img');
+                thumbnail.classList.add('thumbnail');
+                thumbnail.src = image;
+                thumbnail.addEventListener('click', function() {
+                  showImage(this.src);
+                });
+                section.appendChild(thumbnail);
+              }
+            });
+            break; // Exit the loop after finding the correct section
           }
+        }
+      });
+
+      // Collapse all sections initially
+      Array.from(sections).forEach(function(section) {
+        var thumbnails = section.querySelectorAll('.thumbnail');
+        thumbnails.forEach(function(thumbnail) {
+          thumbnail.style.display = 'none';
         });
 
-        var sections = thumbnailGallery.getElementsByClassName('section');
-
-        // Add thumbnails to each corresponding section
-        categories.forEach(function(category) {
-          for (var i = 0; i < sections.length; i++) {
-            var section = sections[i];
-            var title = section.querySelector('.section-title');
-            if (title.textContent === category) {
-              images.forEach(function(image) {
-                var imageCategory = getCategory(image);
-                if (imageCategory === category) {
-                  var thumbnail = document.createElement('img');
-                  thumbnail.classList.add('thumbnail');
-                  thumbnail.src = image;
-                  thumbnail.addEventListener('click', function() {
-                    showImage(this.src);
-                  });
-                  section.appendChild(thumbnail);
-                }
-              });
-              break; // Exit the loop after finding the correct section
-            }
+        var collapseButton = section.querySelector('.collapse-button');
+        collapseButton.addEventListener('click', function() {
+          if (thumbnails[0].style.display === 'none') {
+            thumbnails.forEach(function(thumbnail) {
+              thumbnail.style.display = 'inline';
+            });
+            collapseButton.textContent = '-';
+          } else {
+            thumbnails.forEach(function(thumbnail) {
+              thumbnail.style.display = 'none';
+            });
+            collapseButton.textContent = '+';
           }
-        });
-
-        // Collapse all sections initially
-        Array.from(sections).forEach(function(section) {
-          var thumbnails = section.querySelectorAll('.thumbnail');
-          thumbnails.forEach(function(thumbnail) {
-            thumbnail.style.display = 'none';
-          });
-
-          var collapseButton = section.querySelector('.collapse-button');
-          collapseButton.addEventListener('click', function() {
-            if (thumbnails[0].style.display === 'none') {
-              thumbnails.forEach(function(thumbnail) {
-                thumbnail.style.display = 'inline';
-              });
-              collapseButton.textContent = '-';
-            } else {
-              thumbnails.forEach(function(thumbnail) {
-                thumbnail.style.display = 'none';
-              });
-              collapseButton.textContent = '+';
-            }
-          });
         });
       });
     });
