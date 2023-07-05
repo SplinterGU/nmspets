@@ -236,33 +236,35 @@
         var category = getCategory(image);
         if (!categories.includes(category)) {
           categories.push(category);
-
-          var section = document.createElement('div');
-          section.classList.add('section');
-
-          var sectionHeader = document.createElement('div');
-          sectionHeader.classList.add('section-header');
-
-          var colapseBtn = document.createElement('button');
-          colapseBtn.classList.add('collapse-button');
-          colapseBtn.textContent = '+';
-          sectionHeader.appendChild(colapseBtn);
-
-          var title = document.createElement('h2');
-          title.classList.add('section-title');
-          title.textContent = category;
-          sectionHeader.appendChild(title);
-
-          section.appendChild(sectionHeader);
-
-          thumbnailGallery.appendChild(section);
         }
       });
 
       var sections = thumbnailGallery.getElementsByClassName('section');
 
+      categories.sort();
+
       // Add thumbnails to each corresponding section
       categories.forEach(function(category) {
+        var section = document.createElement('div');
+        section.classList.add('section');
+
+        var sectionHeader = document.createElement('div');
+        sectionHeader.classList.add('section-header');
+
+        var colapseBtn = document.createElement('button');
+        colapseBtn.classList.add('collapse-button');
+        colapseBtn.textContent = '+';
+        sectionHeader.appendChild(colapseBtn);
+
+        var title = document.createElement('h2');
+        title.classList.add('section-title');
+        title.textContent = category;
+        sectionHeader.appendChild(title);
+
+        section.appendChild(sectionHeader);
+
+        thumbnailGallery.appendChild(section);
+
         for (var i = 0; i < sections.length; i++) {
           var section = sections[i];
           var title = section.querySelector('.section-title');
