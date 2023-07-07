@@ -287,10 +287,10 @@
               }
             });
 
-            var collapseButton = title.querySelector('.collapse-button');
             var thumbnails = section.querySelectorAll('.thumbnail');
 
             title.addEventListener('click', function() {
+              var collapseButton = title.querySelector('.collapse-button');
               if (thumbnails[0].style.display === 'none') {
                 thumbnails.forEach(function(thumbnail) {
                   thumbnail.style.display = 'inline';
