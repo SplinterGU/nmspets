@@ -41,6 +41,24 @@
       color: #fff;
     }
 
+    .section-header {
+      display: flex;
+      align-items: center;
+      height: 28px;
+    }
+
+    .collapse-button {
+      width: 26px;
+      height: 26px;
+      border: none;
+      background-color: #fff;
+      color: #888;
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-right: 6px;
+    }
+
     .thumbnail {
       max-width: 200px;
       margin: 5px;
@@ -66,8 +84,8 @@
       position: absolute;
       top: auto;
       right: 7px;
-      width: 27px;
-      height: 27px;
+      width: 30px;
+      height: 30px;
       border-radius: 50%;
       background-color: rgba(255, 255, 255, 0.7);
       border: none;
@@ -78,24 +96,6 @@
       align-items: center;
       justify-content: center;
       margin-top: 7px;
-    }
-
-    .section-header {
-      display: flex;
-      align-items: center;
-      height: 26px;
-    }
-
-    .collapse-button {
-      width: 22px;
-      height: 22px;
-      border: none;
-      background-color: #fff;
-      color: #888;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-right: 6px;
     }
 
     .downloadButton {
@@ -124,7 +124,7 @@
 </head>
 <body>
   <div>
-    <center><h2 style="margin-bottom: 0px;"><u>NMS Pet Collections</u></h2></center>
+    <center><h1 style="margin-bottom: 0px;"><u>NMS Pet Collections</u></h1></center>
     <div style="text-align: center; font-size: 12px; width: 100%; margin: 0px 24px 8px 0px; color: #fff;"><a href="https://github.com/SplinterGU/nmspets">https://github.com/SplinterGU/nmspets</a> by SplinterGU</div>
   </div>
   <div class="container">
@@ -253,7 +253,7 @@
         var sectionHeader = document.createElement('div');
         sectionHeader.classList.add('section-header');
 
-        var title = document.createElement('h4');
+        var title = document.createElement('h3');
         title.classList.add('section-title');
         title.setAttribute('category', category);
         title.textContent = category;
