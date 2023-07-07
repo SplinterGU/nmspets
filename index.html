@@ -33,7 +33,7 @@
 
     .section {
       width: 100%;
-      margin: 0px;
+      margin: 0px;      
     }
 
     .section-title {
@@ -65,36 +65,37 @@
     .delete-button {
       position: absolute;
       top: auto;
-      right: 10px;
-      width: 30px;
-      height: 30px;
+      right: 7px;
+      width: 27px;
+      height: 27px;
       border-radius: 50%;
       background-color: rgba(255, 255, 255, 0.7);
       border: none;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 14px;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 10px;
+      margin-top: 7px;
     }
 
     .section-header {
       display: flex;
       align-items: center;
+      height: 26px;
     }
 
     .collapse-button {
-      width: 30px;
-      height: 30px;
+      width: 22px;
+      height: 22px;
       border: none;
       background-color: #fff;
       color: #888;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: bold;
       cursor: pointer;
-      margin-right: 10px;
+      margin-right: 6px;
     }
 
     .downloadButton {
@@ -123,7 +124,7 @@
 </head>
 <body>
   <div>
-    <center><h2 style="margin-bottom: 0px;">NMS Pet Collections</h2></center>
+    <center><h2 style="margin-bottom: 0px;"><u>NMS Pet Collections</u></h2></center>
     <div style="text-align: center; font-size: 12px; width: 100%; margin: 0px 24px 8px 0px; color: #fff;"><a href="https://github.com/SplinterGU/nmspets">https://github.com/SplinterGU/nmspets</a> by SplinterGU</div>
   </div>
   <div class="container">
@@ -252,14 +253,16 @@
         var sectionHeader = document.createElement('div');
         sectionHeader.classList.add('section-header');
 
+        var title = document.createElement('h4');
+        title.classList.add('section-title');
+        title.setAttribute('category', category);
+        title.textContent = category;
+
         var colapseBtn = document.createElement('button');
         colapseBtn.classList.add('collapse-button');
         colapseBtn.textContent = '+';
-        sectionHeader.appendChild(colapseBtn);
+        title.insertBefore(colapseBtn, title.firstChild);
 
-        var title = document.createElement('h2');
-        title.classList.add('section-title');
-        title.textContent = category;
         sectionHeader.appendChild(title);
 
         section.appendChild(sectionHeader);
@@ -269,73 +272,45 @@
         for (var i = 0; i < sections.length; i++) {
           var section = sections[i];
           var title = section.querySelector('.section-title');
-          if (title.textContent === category) {
+          if (title.getAttribute('category') === category) {
             images.forEach(function(image) {
               var imageCategory = getCategory(image);
               if (imageCategory === category) {
                 var thumbnail = document.createElement('img');
                 thumbnail.classList.add('thumbnail');
                 thumbnail.src = image;
+                thumbnail.style.display = 'none';
                 thumbnail.addEventListener('click', function() {
                   showImage(this.src);
                 });
                 section.appendChild(thumbnail);
               }
             });
+
+            var collapseButton = title.querySelector('.collapse-button');
+            var thumbnails = section.querySelectorAll('.thumbnail');
+
+            title.addEventListener('click', function() {
+              if (thumbnails[0].style.display === 'none') {
+                thumbnails.forEach(function(thumbnail) {
+                  thumbnail.style.display = 'inline';
+                });
+                collapseButton.textContent = '-';
+              } else {
+                thumbnails.forEach(function(thumbnail) {
+                  thumbnail.style.display = 'none';
+                });
+                collapseButton.textContent = '+';
+              }
+            });
+
+            title.innerHTML += " ("+thumbnails.length+")";
+
             break; // Exit the loop after finding the correct section
           }
         }
       });
-
-      // Collapse all sections initially
-      Array.from(sections).forEach(function(section) {
-        var thumbnails = section.querySelectorAll('.thumbnail');
-        thumbnails.forEach(function(thumbnail) {
-          thumbnail.style.display = 'none';
-        });
-
-        var collapseButton = section.querySelector('.collapse-button');
-        collapseButton.addEventListener('click', function() {
-          if (thumbnails[0].style.display === 'none') {
-            thumbnails.forEach(function(thumbnail) {
-              thumbnail.style.display = 'inline';
-            });
-            collapseButton.textContent = '-';
-          } else {
-            thumbnails.forEach(function(thumbnail) {
-              thumbnail.style.display = 'none';
-            });
-            collapseButton.textContent = '+';
-          }
-        });
-      });
     });
-
-    function fetchImages(directory, callback) {
-      fetch(directory)
-        .then(function(response) {
-          if (!response.ok) {
-            throw new Error('Error loading the images.');
-          }
-          return response.text();
-        })
-        .then(function(html) {
-          var parser = new DOMParser();
-          var doc = parser.parseFromString(html, 'text/html');
-          var images = Array.from(doc.getElementsByTagName('a')).map(function(img) {
-            img = img.toString().replace( /(http:\/\/[^/]+\/)/, '$1pets/' );
-            return img;
-          });
-          // Filter only the images with .png extension
-          images = images.filter(function(image) {
-            return image.toLowerCase().endsWith('.png');
-          });
-          callback(images);
-        })
-        .catch(function(error) {
-          console.error(error);
-        });
-    }
 
     function getCategory(image) {
       var parts = image.split('/');
