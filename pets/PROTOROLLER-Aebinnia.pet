@@ -1,0 +1,63 @@
+{
+  "Scale": 0.9160993695259094,
+  "CreatureID": "^PROTOROLLER",
+  "Descriptors": [
+    "^_STRANGE_ROLL",
+    "^_ROLL_SINGLEJOINT",
+    "^_ROLL_TUBES",
+    "^2799471977"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x6B7AB9E4166D739F"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x62B84229FBC44604"
+  ],
+  "SpeciesSeed": "0xE727C064B81D8F3F",
+  "GenusSeed": "0x16D59489B6E90FA2",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x606E00F31306C6",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x6B7AB9E4166D739F"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "ProtoRoller"
+  },
+  "BirthTime": 1688501386,
+  "LastEggTime": 1688501386,
+  "LastTrustIncreaseTime": 1688580370,
+  "LastTrustDecreaseTime": 1688501386,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.24316352605819702,
+    -0.6435605883598328,
+    0.28423088788986206
+  ],
+  "Moods": [
+    0.015157089568674564,
+    0.007924609817564487
+  ]
+}

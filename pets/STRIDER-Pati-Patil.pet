@@ -1,0 +1,68 @@
+{
+  "Scale": 3.07504940032959,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_FLATHEAD",
+    "^_FHACC_0",
+    "^_BODY_STRIDER2",
+    "^_ACC_ARM1",
+    "^_S1ACC_4",
+    "^_TAIL_6",
+    "^_FINC_1",
+    "^_FILLC_NONE",
+    "^1944725432"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x4A7F66A4839A73EC"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x453D04989305E523",
+  "GenusSeed": "0xAC94B137ED0B8DA1",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x520000FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x4A7F66A4839A73EC"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1689036125,
+  "LastEggTime": 1689036125,
+  "LastTrustIncreaseTime": 1689036130,
+  "LastTrustDecreaseTime": 1689036125,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.3270166516304016,
+    -0.858150064945221,
+    -0.19655761122703552
+  ],
+  "Moods": [
+    0.003980633337050676,
+    0.012046052142977715
+  ]
+}

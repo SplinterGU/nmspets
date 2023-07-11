@@ -1,0 +1,69 @@
+{
+  "Scale": 0.38272204995155334,
+  "CreatureID": "^TWOLEGANTELOPE",
+  "Descriptors": [
+    "^_HEAD_BUFF",
+    "^_HBTEETH_1",
+    "^_BHHORNS_2",
+    "^_BHEARS_1",
+    "^_HDACC_NONE",
+    "^_BHNOSE_NULL",
+    "^_BODY_CHICKEN",
+    "^_TAIL_2",
+    "^_FINB_0",
+    "^2268056438"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x318A3F3F460EEF5E"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xCDE615C8C627B0B0",
+  "GenusSeed": "0x7D78F492101A859E",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x520000FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x318A3F3F460EEF5E"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1689036253,
+  "LastEggTime": 1689036253,
+  "LastTrustIncreaseTime": 1689036264,
+  "LastTrustDecreaseTime": 1689036253,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.431870698928833,
+    -0.7215315103530884,
+    0.4441148042678833
+  ],
+  "Moods": [
+    0.009949338622391224,
+    0.02400093339383602
+  ]
+}

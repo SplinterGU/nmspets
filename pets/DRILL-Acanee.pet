@@ -1,0 +1,63 @@
+{
+  "Scale": 0.42469680309295654,
+  "CreatureID": "^DRILL",
+  "Descriptors": [
+    "^_DRILL_A",
+    "^_DRILLSPIN_A",
+    "^_DRILLV_J",
+    "^413836875"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x11A505826A8A51A6"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x5F61E40EBC35DAEA"
+  ],
+  "SpeciesSeed": "0x8BF6504725FA0756",
+  "GenusSeed": "0x5EBFDE575012D06F",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x506E00F31306C6",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x11A505826A8A51A6"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Drill"
+  },
+  "BirthTime": 1688449193,
+  "LastEggTime": 1688449193,
+  "LastTrustIncreaseTime": 1688580522,
+  "LastTrustDecreaseTime": 1688449193,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.3702450394630432,
+    0.338321328163147,
+    -0.5918325781822205
+  ],
+  "Moods": [
+    0.04173727333545685,
+    0.05812298133969307
+  ]
+}

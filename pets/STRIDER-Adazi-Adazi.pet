@@ -1,0 +1,66 @@
+{
+  "Scale": 3.417044162750244,
+  "CreatureID": "^STRIDER",
+  "Descriptors": [
+    "^_HEAD_FLATHEAD",
+    "^_FHACC_6",
+    "^_BODY_BUG",
+    "^_BBACC_3XRARE",
+    "^_BBARM_1",
+    "^_TAIL_4",
+    "^2796357351"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD329C1EF357A5A7F"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0x96C5AB6D9A9C51FC",
+  "GenusSeed": "0x7C1505C6ADFA394",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x420000FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD329C1EF357A5A7F"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Toxic"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 1689039929,
+  "LastEggTime": 1689039929,
+  "LastTrustIncreaseTime": 1689039941,
+  "LastTrustDecreaseTime": 1689039929,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.07764363288879395,
+    -0.7387575507164001,
+    0.049237191677093506
+  ],
+  "Moods": [
+    0.002864675596356392,
+    0.005755344405770302
+  ]
+}

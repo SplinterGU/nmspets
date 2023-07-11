@@ -1,0 +1,68 @@
+{
+  "Scale": 5.188473701477051,
+  "CreatureID": "^FLOATSPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_1",
+    "^_BODY_2",
+    "^_NECK_BUG",
+    "^_ACC1_BULBSIDE",
+    "^_ACC5_SPIKES",
+    "^_ALTH_5",
+    "^_LEGS_2",
+    "^2895739233"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xA5B86F33C0D939EE"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xC8DB6BABCB1A0840",
+  "GenusSeed": "0xE613A9FA74086D49",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x520000FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xA5B86F33C0D939EE"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1689036327,
+  "LastEggTime": 1689036327,
+  "LastTrustIncreaseTime": 1689036338,
+  "LastTrustDecreaseTime": 1689036327,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.17945170402526855,
+    -0.7865543961524963,
+    -0.20711442828178406
+  ],
+  "Moods": [
+    0.0033288307022303343,
+    0.010115990415215492
+  ]
+}

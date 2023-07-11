@@ -1,0 +1,67 @@
+{
+  "Scale": 1.5984234809875488,
+  "CreatureID": "^TRICERATOPS",
+  "Descriptors": [
+    "^_HEAD_TRI",
+    "^_TRIHNOSE_1",
+    "^_TRIHHORN_2",
+    "^_TRIHNECK_1",
+    "^_BODY_TAPIR",
+    "^_DECOR_3",
+    "^_TAIL_DIPLO",
+    "^1628176995"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x74D82FCFED4A61C4"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xB15C2514C4E849AD",
+  "GenusSeed": "0xF55E3CC0E81826CF",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x520009FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x74D82FCFED4A61C4"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Prey"
+  },
+  "BirthTime": 16890451223,
+  "LastEggTime": 1689042222,
+  "LastTrustIncreaseTime": 0,
+  "LastTrustDecreaseTime": 1689045523,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.3624637722969055,
+    -0.839675784111023,
+    0.17885923385620117
+  ],
+  "Moods": [
+    0.2518244981765747,
+    0.8364798426628113
+  ]
+}

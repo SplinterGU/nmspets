@@ -1,0 +1,66 @@
+{
+  "Scale": 0.6988222002983093,
+  "CreatureID": "^SIXLEGCAT",
+  "Descriptors": [
+    "^_HEAD_CAT",
+    "^_HCACC_B",
+    "^_HCTOPB_C",
+    "^_BODY_SIXLEGCAT",
+    "^_B6CA_NULL",
+    "^_TAIL_LIZ1",
+    "^2834809471"
+  ],
+  "CreatureSeed": [
+    true,
+    "0x9C58C583E99A1451"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x687DF1E3C7216136"
+  ],
+  "SpeciesSeed": "0x1B8CD8A918E7A9C8",
+  "GenusSeed": "0x5E7231526F507A0B",
+  "CustomSpeciesName": "^",
+  "Predator": true,
+  "UA": "0x520009FE2D0992",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0x9C58C583E99A1451"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lava"
+  },
+  "CreatureType": {
+    "CreatureType": "Predator"
+  },
+  "BirthTime": 1689045386,
+  "LastEggTime": 1689045386,
+  "LastTrustIncreaseTime": 1689045391,
+  "LastTrustDecreaseTime": 1689045386,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    -0.4638991355895996,
+    0.6682630777359009,
+    0.018420398235321045
+  ],
+  "Moods": [
+    0.013510191813111305,
+    0.037667710334062576
+  ]
+}
