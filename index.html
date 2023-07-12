@@ -133,7 +133,7 @@
     <div id="zoom-image-container">
       <div>
         <button id="deleteButton" class="delete-button" style="display: none;">X</button>
-        <canvas id="zoomImage" class="zoom-image"></canvas>
+        <canvas id="zoomImage" class="zoom-image" style="display: none;"></canvas>
       </div>
       <div id="button-container"></div>
     </div>
@@ -403,7 +403,6 @@
     var downloadPETButton = undefined;
 
     function showPet(imageURL) {
-      console.log(petURL);
       var zoomImage = document.getElementById('zoomImage');
       var zoomImageContainer = document.getElementById('zoom-image-container');
       var buttonContainer = document.getElementById('button-container');
@@ -435,8 +434,6 @@
             var pet = JSON.parse(textContent);
             divUA = document.getElementById('UA');
             var UA = '';
-            console.log(typeof pet.UA);
-            console.log(pet.UA);
             if ( typeof pet.UA === "string" ) {
               if ( pet.UA.slice( 0, 2 ) == '0x' ) UA = pet.UA.slice( 2 );
               else UA = parseInt( pet.UA, 10 ).toString(16);
@@ -451,6 +448,7 @@
           });
 
 //        zoomImage.src = image;
+        zoomImage.style.display = 'block';
         deleteButton.style.display = 'block';
         zoomImageContainer.style.marginLeft = '10px';
         zoomImageContainer.style.marginRight = '10px';
@@ -514,7 +512,7 @@
           link.click();
         }
       } else {
-        zoomImage.src = '';
+        zoomImage.style.display = 'none';
         deleteButton.style.display = 'none';
         zoomImageContainer.style.marginLeft = '0px';
         zoomImageContainer.style.marginRight = '0px';
