@@ -129,25 +129,328 @@
   </div>
   <div class="container">
     <div class="gallery" id="thumbnailGallery"></div>
+    <div id="UA"></div>
     <div id="zoom-image-container">
       <div>
         <button id="deleteButton" class="delete-button" style="display: none;">X</button>
-        <img id="zoomImage" class="zoom-image" src="">
+        <canvas id="zoomImage" class="zoom-image"></canvas>
       </div>
       <div id="button-container"></div>
     </div>
   </div>
   <script>
 
+    var galaxies = [
+      "1.Euclid",
+      "2.Hilbert Dimension",
+      "3.Calypso",
+      "4.Hesperius Dimension",
+      "5.Hyades",
+      "6.Ickjamatew",
+      "7.Budullangr",
+      "8.Kikolgallr",
+      "9.Eltiensleen",
+      "10.Eissentam",
+      "11.Elkupalos",
+      "12.Aptarkaba",
+      "13.Ontiniangp",
+      "14.Odiwagiri",
+      "15.Ogtialabi",
+      "16.Muhacksonto",
+      "17.Hitonskyer",
+      "18.Rerasmutul",
+      "19.Isdoraijung",
+      "20.Doctinawyra",
+      "21.Loychazinq",
+      "22.Zukasizawa",
+      "23.Ekwathore",
+      "24.Yeberhahne",
+      "25.Twerbetek",
+      "26.Sivarates",
+      "27.Eajerandal",
+      "28.Aldukesci",
+      "29.Wotyarogii",
+      "30.Sudzerbal",
+      "31.Maupenzhay",
+      "32.Sugueziume",
+      "33.Brogoweldian",
+      "34.Ehbogdenbu",
+      "35.Ijsenufryos",
+      "36.Nipikulha",
+      "37.Autsurabin",
+      "38.Lusontrygiamh",
+      "39.Rewmanawa",
+      "40.Ethiophodhe",
+      "41.Urastrykle",
+      "42.Xobeurindj",
+      "43.Oniijialdu",
+      "44.Wucetosucc",
+      "45.Ebyeloofdud",
+      "46.Odyavanta",
+      "47.Milekistri",
+      "48.Waferganh",
+      "49.Agnusopwit",
+      "50.Teyaypilny",
+      "51.Zalienkosm",
+      "52.Ladgudiraf",
+      "53.Mushonponte",
+      "54.Amsentisz",
+      "55.Fladiselm",
+      "56.Laanawemb",
+      "57.Ilkerloor",
+      "58.Davanossi",
+      "59.Ploehrliou",
+      "60.Corpinyaya",
+      "61.Leckandmeram",
+      "62.Quulngais",
+      "63.Nokokipsechl",
+      "64.Rinblodesa",
+      "65.Loydporpen",
+      "66.Ibtrevskip",
+      "67.Elkowaldb",
+      "68.Heholhofsko",
+      "69.Yebrilowisod",
+      "70.Husalvangewi",
+      "71.Ovna'uesed",
+      "72.Bahibusey",
+      "73.Nuybeliaure",
+      "74.Doshawchuc",
+      "75.Ruckinarkh",
+      "76.Thorettac",
+      "77.Nuponoparau",
+      "78.Moglaschil",
+      "79.Uiweupose",
+      "80.Nasmilete",
+      "81.Ekdaluskin",
+      "82.Hakapanasy",
+      "83.Dimonimba",
+      "84.Cajaccari",
+      "85.Olonerovo",
+      "86.Umlanswick",
+      "87.Henayliszm",
+      "88.Utzenmate",
+      "89.Umirpaiya",
+      "90.Paholiang",
+      "91.Iaereznika",
+      "92.Yudukagath",
+      "93.Boealalosnj",
+      "94.Yaevarcko",
+      "95.Coellosipp",
+      "96.Wayndohalou",
+      "97.Smoduraykl",
+      "98.Apmaneessu",
+      "99.Hicanpaav",
+      "100.Akvasanta",
+      "101.Tuychelisaor",
+      "102.Rivskimbe",
+      "103.Daksanquix",
+      "104.Kissonlin",
+      "105.Aediabiel",
+      "106.Ulosaginyik",
+      "107.Roclaytonycar",
+      "108.Kichiaroa",
+      "109.Irceauffey",
+      "110.Nudquathsenfe",
+      "111.Getaizakaal",
+      "112.Hansolmien",
+      "113.Bloytisagra",
+      "114.Ladsenlay",
+      "115.Luyugoslasr",
+      "116.Ubredhatk",
+      "117.Cidoniana",
+      "118.Jasinessa",
+      "119.Torweierf",
+      "120.Saffneckm",
+      "121.Thnistner",
+      "122.Dotusingg",
+      "123.Luleukous",
+      "124.Jelmandan",
+      "125.Otimanaso",
+      "126.Enjaxusanto",
+      "127.Sezviktorew",
+      "128.Zikehpm",
+      "129.Bephembah",
+      "130.Broomerrai",
+      "131.Meximicka",
+      "132.Venessika",
+      "133.Gaiteseling",
+      "134.Zosakasiro",
+      "135.Drajayanes",
+      "136.Ooibekuar",
+      "137.Urckiansi",
+      "138.Dozivadido",
+      "139.Emiekereks",
+      "140.Meykinunukur",
+      "141.Kimycuristh",
+      "142.Roansfien",
+      "143.Isgarmeso",
+      "144.Daitibeli",
+      "145.Gucuttarik",
+      "146.Enlaythie",
+      "147.Drewweste",
+      "148.Akbulkabi",
+      "149.Homskiw",
+      "150.Zavainlani",
+      "151.Jewijkmas",
+      "152.Itlhotagra",
+      "153.Podalicess",
+      "154.Hiviusauer",
+      "155.Halsebenk",
+      "156.Puikitoac",
+      "157.Gaybakuaria",
+      "158.Grbodubhe",
+      "159.Rycempler",
+      "160.Indjalala",
+      "161.Fontenikk",
+      "162.Pasycihelwhee",
+      "163.Ikbaksmit",
+      "164.Telicianses",
+      "165.Oyleyzhan",
+      "166.Uagerosat",
+      "167.Impoxectin",
+      "168.Twoodmand",
+      "169.Hilfsesorbs",
+      "170.Ezdaranit",
+      "171.Wiensanshe",
+      "172.Ewheelonc",
+      "173.Litzmantufa",
+      "174.Emarmatosi",
+      "175.Mufimbomacvi",
+      "176.Wongquarum",
+      "177.Hapirajua",
+      "178.Igbinduina",
+      "179.Wepaitvas",
+      "180.Sthatigudi",
+      "181.Yekathsebehn",
+      "182.Ebedeagurst",
+      "183.Nolisonia",
+      "184.Ulexovitab",
+      "185.Iodhinxois",
+      "186.Irroswitzs",
+      "187.Bifredait",
+      "188.Beiraghedwe",
+      "189.Yeonatlak",
+      "190.Cugnatachh",
+      "191.Nozoryenki",
+      "192.Ebralduri",
+      "193.Evcickcandj",
+      "194.Ziybosswin",
+      "195.Heperclait",
+      "196.Sugiuniam",
+      "197.Aaseertush",
+      "198.Uglyestemaa",
+      "199.Horeroedsh",
+      "200.Drundemiso",
+      "201.Ityanianat",
+      "202.Purneyrine",
+      "203.Dokiessmat",
+      "204.Nupiacheh",
+      "205.Dihewsonj",
+      "206.Rudrailhik",
+      "207.Tweretnort",
+      "208.Snatreetze",
+      "209.Iwundaracos",
+      "210.Digarlewena",
+      "211.Erquagsta",
+      "212.Logovoloin",
+      "213.Boyaghosganh",
+      "214.Kuolungau",
+      "215.Pehneldept",
+      "216.Yevettiiqidcon",
+      "217.Sahliacabru",
+      "218.Noggalterpor",
+      "219.Chmageaki",
+      "220.Veticueca",
+      "221.Vittesbursul",
+      "222.Nootanore",
+      "223.Innebdjerah",
+      "224.Kisvarcini",
+      "225.Cuzcogipper",
+      "226.Pamanhermonsu",
+      "227.Brotoghek",
+      "228.Mibittara",
+      "229.Huruahili",
+      "230.Raldwicarn",
+      "231.Ezdartlic",
+      "232.Badesclema",
+      "233.Isenkeyan",
+      "234.Iadoitesu",
+      "235.Yagrovoisi",
+      "236.Ewcomechio",
+      "237.Inunnunnoda",
+      "238.Dischiutun",
+      "239.Yuwarugha",
+      "240.Ialmendra",
+      "241.Reponudrle",
+      "242.Rinjanagrbo",
+      "243.Zeziceloh",
+      "244.Oeileutasc",
+      "245.Zicniijinis",
+      "246.Dugnowarilda",
+      "247.Neuxoisan",
+      "248.Ilmenhorn",
+      "249.Rukwatsuku",
+      "250.Nepitzaspru",
+      "251.Chcehoemig",
+      "252.Haffneyrin",
+      "253.Uliciawai",
+      "254.Tuhgrespod",
+      "255.Iousongola",
+      "256.Odyalutai"
+    ];
+
     var downloadEGGButton = undefined;
     var downloadPETButton = undefined;
 
-    function showImage(image) {
+    function showPet(imageURL) {
+      console.log(petURL);
       var zoomImage = document.getElementById('zoomImage');
       var zoomImageContainer = document.getElementById('zoom-image-container');
       var buttonContainer = document.getElementById('button-container');
-      if (image) {
-        zoomImage.src = image;
+      if (imageURL) {
+//        var canvas = document.getElementById("zoomImage");
+        var context = zoomImage.getContext("2d");
+
+        var image = document.createElement('img');
+        image.src = imageURL;
+
+        zoomImage.width = image.width;
+        zoomImage.height = image.height;
+
+        // Dibujar la imagen en el canvas
+        context.drawImage(image, 0, 0);
+
+        // getUA
+        var petURL = imageURL.replace('.png', '.pet');
+
+        // Make a request to the server to fetch the content of the text file
+        fetch(petURL)
+          .then(function(response) {
+            if (!response.ok) {
+              throw new Error('Error downloading the required file.');
+            }
+            return response.text();
+          })
+          .then(function(textContent) {
+            var pet = JSON.parse(textContent);
+            divUA = document.getElementById('UA');
+            var UA = '';
+            console.log(typeof pet.UA);
+            console.log(pet.UA);
+            if ( typeof pet.UA === "string" ) {
+              if ( pet.UA.slice( 0, 2 ) == '0x' ) UA = pet.UA.slice( 2 );
+              else UA = parseInt( pet.UA, 10 ).toString(16);
+            } else
+            if ( typeof pet.UA === "number" ) UA = pet.UA.toString(16);
+
+            decodeUA(UA);
+            drawUA(context);
+          })
+          .catch(function(error) {
+            console.error(error);
+          });
+
+//        zoomImage.src = image;
         deleteButton.style.display = 'block';
         zoomImageContainer.style.marginLeft = '10px';
         zoomImageContainer.style.marginRight = '10px';
@@ -160,14 +463,14 @@
         downloadEGGButton.textContent = 'Download EGG';
         downloadEGGButton.classList.add('downloadButton');
         downloadEGGButton.addEventListener('click', function() {
-          downloadEgg(zoomImage.src);
+          downloadEgg(imageURL);
         });
 
         downloadPETButton = document.createElement('button');
         downloadPETButton.textContent = 'Download PET';
         downloadPETButton.classList.add('downloadButton');
         downloadPETButton.addEventListener('click', function() {
-          downloadPet(zoomImage.src);
+          downloadPet(imageURL);
         });
 
         buttonContainer.appendChild(downloadEGGButton);
@@ -224,7 +527,7 @@
     var deleteButton = document.getElementById('deleteButton');
 
     deleteButton.addEventListener('click', function() {
-        showImage(null);
+        showPet(null);
     });
 
     window.addEventListener('DOMContentLoaded', function() {
@@ -281,7 +584,7 @@
                 thumbnail.src = image;
                 thumbnail.style.display = 'none';
                 thumbnail.addEventListener('click', function() {
-                  showImage(this.src);
+                  showPet(this.src);
                 });
                 section.appendChild(thumbnail);
               }
@@ -310,7 +613,147 @@
           }
         }
       });
+
+      // Load images
+      const symbols = [
+        'PORTALSYMBOL.0.png',
+        'PORTALSYMBOL.1.png',
+        'PORTALSYMBOL.2.png',
+        'PORTALSYMBOL.3.png',
+        'PORTALSYMBOL.4.png',
+        'PORTALSYMBOL.5.png',
+        'PORTALSYMBOL.6.png',
+        'PORTALSYMBOL.7.png',
+        'PORTALSYMBOL.8.png',
+        'PORTALSYMBOL.9.png',
+        'PORTALSYMBOL.A.png',
+        'PORTALSYMBOL.B.png',
+        'PORTALSYMBOL.C.png',
+        'PORTALSYMBOL.D.png',
+        'PORTALSYMBOL.E.png',
+        'PORTALSYMBOL.F.png'
+      ];
+
+      const p = symbols.map((url) => {
+        return new Promise((resolve, reject) => {
+          const imagen = new Image();
+          imagen.onload = () => resolve(imagen);
+          imagen.onerror = () => reject(new Error(`Error loading imagen ${url}`));
+          imagen.src = url;
+        });
+      });
+
+      Promise.all(p)
+        .then((loadedImages) => {
+          // all images loaded
+          glyphs = loadedImages;
+        })
+        .catch((error) => {
+          // fail to load all images
+          console.error('Error to load ', error);
+        });
+
     });
+
+
+    function toHex1(v) {
+      return ("0"+v.toString(16)).slice(-1).toUpperCase();
+    }
+
+    function toHex2(v) {
+      return ("00"+v.toString(16)).slice(-2).toUpperCase();
+    }
+
+    function toHex3(v) {
+      return ("000"+v.toString(16)).slice(-3).toUpperCase();
+    }
+
+    function toHex4(v) {
+      return ("0000"+v.toString(16)).slice(-4).toUpperCase();
+    }
+
+    var UAS = '';
+    var galaxy = 0;
+
+    function decodeUA(ua) {
+
+      ua = ( "0000000000000000" + ua ).slice(-16).toUpperCase();
+
+      galaxy = parseInt(ua.slice(6,8),16);
+      var xxx = parseInt(ua.slice(13),16);
+      var yy = parseInt(ua.slice(8,10),16);
+      var zzz = parseInt(ua.slice(10,13),16);
+      var solaridx = parseInt(ua.slice(3,6),16);
+      var planetidx = parseInt(ua.slice(2,3),16);
+      
+      var x = ( xxx & 0x800 ? -1 ^ 0xfff | xxx : xxx );
+      var y = ( yy & 0x80 ? -1 ^ 0xff | yy : yy );
+      var z = ( zzz & 0x800 ? -1 ^ 0xfff | zzz : zzz );
+
+      UAS = toHex1(planetidx) + toHex3( solaridx ) + toHex2( yy ) + toHex3( zzz ) + toHex3( xxx ) ;
+    }
+
+    function drawUA(context) {
+      const x = 140;
+      const y = 450;
+      const width = 400;
+      const height = 74;
+      const cornerRadius = 5;
+
+      context.strokeStyle = '#282828';
+      context.beginPath();
+      context.moveTo(x + cornerRadius, y);
+      context.arcTo(x + width, y, x + width, y + height, cornerRadius);
+      context.arcTo(x + width, y + height, x, y + height, cornerRadius);
+      context.arcTo(x, y + height, x, y, cornerRadius);
+      context.arcTo(x, y, x + width, y, cornerRadius);
+      context.closePath();
+
+      context.fillStyle = '#28282890';
+      context.fill();
+
+      for ( var n = 0; n < UAS.length; n++ ) {
+        var i = parseInt(UAS[n],16);
+        var xo = x + 8 + n * 32;
+
+        context.drawImage( glyphs[ i ], xo + 1, y + 8, 30, 30 );
+        
+        context.font = '12px Arial';
+        context.fillStyle = 'white';
+        context.textAlign = 'center';
+        context.fillText(i.toString(16).toUpperCase(), xo + 16, y + 50);
+
+        context.lineWidth = 1;
+        context.strokeStyle = '#ccc';
+        context.strokeRect(xo, y + 6, 32, 48);
+
+        context.beginPath();
+        context.moveTo(xo, y + 38);
+        context.lineTo(xo + 32, y + 38);
+        context.strokeStyle = '#ccc';
+        context.stroke();
+      }
+
+      if ( UAS.length == 12 ) {
+        context.font = 'normal 12px Arial';
+        context.fillStyle = '#999';
+        context.textAlign = 'left';
+        context.fillText('by SplinterGU', x + 8, y + 70);
+
+        context.font = 'bold 14px Arial';
+        context.fillStyle = '#bbb';
+        context.textAlign = 'right';
+        context.fillText(galaxies[galaxy], x + 400 - 8, y + 70);
+      }
+    }
+
+
+
+
+
+
+
+
 
     function getCategory(image) {
       var parts = image.split('/');
