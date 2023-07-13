@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NMS Pet Collections</title>
+  <title>NMS Pet Collection</title>
   <style>
     body {
-      background-color: #000;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       margin: 0;
       padding: 0;
+      width: 100%;
+      height: 100%;
       overflow: hidden;
       font-family: Arial;
-      color: #fff;
     }
 
     .container {
@@ -28,7 +34,7 @@
       align-content: flex-start;
       align-items: flex-start;
       padding: 10px;
-      height: calc(100vh - 68px - 32px); /* Adjust these values according to the header size and top margin */
+      height: calc(100vh - 68px - 30px); /* Adjust these values according to the header size and top margin */
     }
 
     .section {
@@ -123,10 +129,9 @@
   <script src="petslst.js"></script>
 </head>
 <body>
-  <div>
-    <center><h1 style="margin-bottom: 0px;"><u>NMS Pet Collections</u></h1></center>
-    <div style="text-align: center; font-size: 12px; width: 100%; margin: 0px 24px 8px 0px; color: #fff;"><a href="https://github.com/SplinterGU/nmspets">https://github.com/SplinterGU/nmspets</a> by SplinterGU</div>
-  </div>
+  <h1 style="margin: 0px;"><u>NMS Pet Collection</u></h1>
+  <div style="font-size: 16px; display: inline"><center>(<div id="total" style="display: inline;"></div> creatures)</center></div>
+  <div style="text-align: center; font-size: 12px; width: 100%; margin: 0px 0px 8px 0px; color: #fff;"><a href="https://github.com/SplinterGU/nmspets">https://github.com/SplinterGU/nmspets</a> by <a href="mailto:splintergu@gmail.com?subject=NMS Pet Collection">SplinterGU</a></div>
   <div class="container">
     <div class="gallery" id="thumbnailGallery"></div>
     <div id="UA"></div>
@@ -407,7 +412,6 @@
       var zoomImageContainer = document.getElementById('zoom-image-container');
       var buttonContainer = document.getElementById('button-container');
       if (imageURL) {
-//        var canvas = document.getElementById("zoomImage");
         var context = zoomImage.getContext("2d");
 
         var image = document.createElement('img');
@@ -416,7 +420,6 @@
         zoomImage.width = image.width;
         zoomImage.height = image.height;
 
-        // Dibujar la imagen en el canvas
         context.drawImage(image, 0, 0);
 
         // getUA
@@ -447,7 +450,6 @@
             console.error(error);
           });
 
-//        zoomImage.src = image;
         zoomImage.style.display = 'block';
         deleteButton.style.display = 'block';
         zoomImageContainer.style.marginLeft = '10px';
@@ -612,6 +614,8 @@
         }
       });
 
+      document.getElementById("total").innerHTML = document.querySelectorAll('.thumbnail').length;
+
       // Load images
       const symbols = [
         'PORTALSYMBOL.0.png',
@@ -652,7 +656,6 @@
         });
 
     });
-
 
     function toHex1(v) {
       return ("0"+v.toString(16)).slice(-1).toUpperCase();
@@ -744,14 +747,6 @@
         context.fillText(galaxies[galaxy], x + 400 - 8, y + 70);
       }
     }
-
-
-
-
-
-
-
-
 
     function getCategory(image) {
       var parts = image.split('/');
