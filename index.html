@@ -720,24 +720,24 @@
         context.drawImage( glyphs[ i ], xo + 1, y + 8, 30, 30 );
         
         context.font = '12px Arial';
-        context.fillStyle = 'white';
+        context.fillStyle = '#ccc';
         context.textAlign = 'center';
         context.fillText(i.toString(16).toUpperCase(), xo + 16, y + 50);
 
         context.lineWidth = 1;
-        context.strokeStyle = 'white';
+        context.strokeStyle = '#ccc';
         context.strokeRect(xo, y + 6, 32, 48);
 
         context.beginPath();
         context.moveTo(xo, y + 38);
         context.lineTo(xo + 32, y + 38);
-        context.strokeStyle = 'white';
+        context.strokeStyle = '#ccc';
         context.stroke();
       }
 
       if ( UAS.length == 12 ) {
         context.font = 'normal 12px Arial';
-        context.fillStyle = 'white';
+        context.fillStyle = '#ccc';
         context.textAlign = 'left';
 //        context.fillText('by SplinterGU', x + 8, y + 70);
         context.fillText('https://splintergu.github.io/nmspets/', x + 8, y + 70);
