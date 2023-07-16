@@ -1,0 +1,70 @@
+{
+  "Scale": 0.9790862202644348,
+  "CreatureID": "^ROBOTANTELOPE",
+  "Descriptors": [
+    "^_HEAD_DISC",
+    "^_ACC_BACKSHROOMS",
+    "^_RIBCAGE_1",
+    "^_LEGSBACK_1",
+    "^_PLATING_2",
+    "^_CORDSLEGBACK_",
+    "^_BODY_1",
+    "^_LEGSFRONT_1",
+    "^_CORDSLEGFRONT_",
+    "^_SHOULDERACC_NONE",
+    "^662551973"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xF38B32B053B8F643"
+  ],
+  "CreatureSecondarySeed": [
+    false,
+    "0x0"
+  ],
+  "SpeciesSeed": "0xC6E463FDFA2B25B1",
+  "GenusSeed": "0xD31A593CBDFDAB5C",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x511D0981001CED",
+  "AllowUnmodifiedReroll": false,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xF38B32B053B8F643"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Weird"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1689372767,
+  "LastEggTime": 1689372767,
+  "LastTrustIncreaseTime": 1689372777,
+  "LastTrustDecreaseTime": 1689372767,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.13340091705322266,
+    -0.8001383543014526,
+    -0.17179179191589355
+  ],
+  "Moods": [
+    0.007426808122545481,
+    0.02225579507648945
+  ]
+}
