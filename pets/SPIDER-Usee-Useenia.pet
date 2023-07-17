@@ -1,0 +1,71 @@
+{
+  "Scale": 3.7738873958587646,
+  "CreatureID": "^SPIDER",
+  "Descriptors": [
+    "^_MANTIS_A",
+    "^_ARMS_1",
+    "^_BODY_2",
+    "^_NECK_ALT",
+    "^_TAIL_NULL1",
+    "^_HEAD_MUFFIN",
+    "^_ALTH2_BULBB",
+    "^_EYES_B",
+    "^_AT_SPIKES",
+    "^_MOUTH_B",
+    "^_LEGS_2",
+    "^280869212"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xD8A59457CF7AEB77"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0x871E66A2419F9D85"
+  ],
+  "SpeciesSeed": "0x58D62D5EFC46AD85",
+  "GenusSeed": "0x783C024094486F12",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x42300901DC3677",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xD8A59457CF7AEB77"
+  ],
+  "HasFur": true,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Passive"
+  },
+  "BirthTime": 1689543647,
+  "LastEggTime": 1689543647,
+  "LastTrustIncreaseTime": 1689543653,
+  "LastTrustDecreaseTime": 1689543647,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.22462856769561768,
+    -0.8501260280609131,
+    0.16533243656158447
+  ],
+  "Moods": [
+    0.1674024909734726,
+    0.24292221665382385
+  ]
+}
