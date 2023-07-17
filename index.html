@@ -34,7 +34,7 @@
       align-content: flex-start;
       align-items: flex-start;
       padding: 10px;
-      height: calc(100vh - 68px - 30px); /* Adjust these values according to the header size and top margin */
+//      height: calc(100vh - 68px - 30px); /* Adjust these values according to the header size and top margin */
     }
 
     .section {
@@ -132,7 +132,8 @@
   <h1 style="margin: 0px;"><u>NMS Pet Collection</u></h1>
   <div style="font-size: 16px; display: inline"><center>(<div id="total" style="display: inline;"></div> creatures)</center></div>
   <div style="text-align: center; font-size: 12px; width: 100%; margin: 0px 0px 8px 0px; color: #fff;"><a href="https://github.com/SplinterGU/nmspets">https://github.com/SplinterGU/nmspets</a> by <a href="mailto:splintergu@gmail.com?subject=NMS Pet Collection">SplinterGU</a></div>
-  <div class="container">
+  <div style="float: right; position: absolute; top: 10px; right: 20px;"><a href="https://paypal.me/bennugd" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a></div>
+  <div class="container" id="container">
     <div class="gallery" id="thumbnailGallery"></div>
     <div id="UA"></div>
     <div id="zoom-image-container">
@@ -413,77 +414,21 @@
       var buttonContainer = document.getElementById('button-container');
       if (imageURL) {
         var context = zoomImage.getContext("2d");
-
+  
         var image = document.createElement('img');
         image.src = imageURL;
-
-        zoomImage.width = image.width;
-        zoomImage.height = image.height;
-
-        context.drawImage(image, 0, 0);
-
-        // getUA
-        var petURL = imageURL.replace('.png', '.pet');
-
-        // Make a request to the server to fetch the content of the text file
-        fetch(petURL)
-          .then(function(response) {
-            if (!response.ok) {
-              throw new Error('Error downloading the required file.');
-            }
-            return response.text();
-          })
-          .then(function(textContent) {
-            var pet = JSON.parse(textContent);
-            divUA = document.getElementById('UA');
-            var UA = '';
-            if ( typeof pet.UA === "string" ) {
-              if ( pet.UA.slice( 0, 2 ) == '0x' ) UA = pet.UA.slice( 2 );
-              else UA = parseInt( pet.UA, 10 ).toString(16);
-            } else
-            if ( typeof pet.UA === "number" ) UA = pet.UA.toString(16);
-
-            decodeUA(UA);
-            drawUA(context);
-          })
-          .catch(function(error) {
-            console.error(error);
-          });
-
-        zoomImage.style.display = 'block';
-        deleteButton.style.display = 'block';
-        zoomImageContainer.style.marginLeft = '10px';
-        zoomImageContainer.style.marginRight = '10px';
-
-        if (downloadEGGButton !== undefined) { downloadEGGButton.remove(); downloadEGGButton = undefined; }
-        if (downloadPETButton !== undefined) { downloadPETButton.remove(); downloadPETButton = undefined; }
-
-        // Create download buttons
-        downloadEGGButton = document.createElement('button');
-        downloadEGGButton.textContent = 'Download EGG';
-        downloadEGGButton.classList.add('downloadButton');
-        downloadEGGButton.addEventListener('click', function() {
-          downloadEgg(imageURL);
-        });
-
-        downloadPETButton = document.createElement('button');
-        downloadPETButton.textContent = 'Download PET';
-        downloadPETButton.classList.add('downloadButton');
-        downloadPETButton.addEventListener('click', function() {
-          downloadPet(imageURL);
-        });
-
-        buttonContainer.appendChild(downloadEGGButton);
-        buttonContainer.appendChild(downloadPETButton);
-
-        // Function to download the image with a specific extension
-        function downloadEgg(imageURL) {
-          var fileName = imageURL.substring(imageURL.lastIndexOf('/') + 1);
-          fileName = fileName.replace('.png', '.egg');
-          imageURL = imageURL.replace('.png', '.pet');
-
+  
+        image.addEventListener('load', function() {
+          zoomImage.width = image.width;
+          zoomImage.height = image.height;
+  
+          context.drawImage(image, 0, 0);
+  
+          // getUA
+          var petURL = imageURL.replace('.png', '.pet');
+  
           // Make a request to the server to fetch the content of the text file
-          fetch(imageURL)
+          fetch(petURL)
             .then(function(response) {
               if (!response.ok) {
                 throw new Error('Error downloading the required file.');
@@ -491,28 +436,87 @@
               return response.text();
             })
             .then(function(textContent) {
-              textContent = textContent.replace(/"HasBeenSummoned": true/g, '"HasBeenSummoned": false');
-
-              // Create an <a> element with the content of the text file
-              var link = document.createElement('a');
-              link.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(textContent);
-              link.download = fileName;
-              link.click();
+              var pet = JSON.parse(textContent);
+              divUA = document.getElementById('UA');
+              var UA = '';
+              if ( typeof pet.UA === "string" ) {
+                if ( pet.UA.slice( 0, 2 ) == '0x' ) UA = pet.UA.slice( 2 );
+                else UA = parseInt( pet.UA, 10 ).toString(16);
+              } else
+              if ( typeof pet.UA === "number" ) UA = pet.UA.toString(16);
+  
+              decodeUA(UA);
+              drawUA(context);
             })
             .catch(function(error) {
               console.error(error);
             });
-        }
+  
+          zoomImage.style.display = 'block';
+          deleteButton.style.display = 'block';
+          zoomImageContainer.style.marginLeft = '10px';
+          zoomImageContainer.style.marginRight = '10px';
+  
+          if (downloadEGGButton !== undefined) { downloadEGGButton.remove(); downloadEGGButton = undefined; }
+          if (downloadPETButton !== undefined) { downloadPETButton.remove(); downloadPETButton = undefined; }
+  
+          // Create download buttons
+          downloadEGGButton = document.createElement('button');
+          downloadEGGButton.textContent = 'Download EGG';
+          downloadEGGButton.classList.add('downloadButton');
+          downloadEGGButton.addEventListener('click', function() {
+            downloadEgg(imageURL);
+          });
+  
+          downloadPETButton = document.createElement('button');
+          downloadPETButton.textContent = 'Download PET';
+          downloadPETButton.classList.add('downloadButton');
+          downloadPETButton.addEventListener('click', function() {
+            downloadPet(imageURL);
+          });
+  
+          buttonContainer.appendChild(downloadEGGButton);
+          buttonContainer.appendChild(downloadPETButton);
+  
+          // Function to download the image with a specific extension
+          function downloadEgg(imageURL) {
+            var fileName = imageURL.substring(imageURL.lastIndexOf('/') + 1);
+            fileName = fileName.replace('.png', '.egg');
+            imageURL = imageURL.replace('.png', '.pet');
+  
+            // Make a request to the server to fetch the content of the text file
+            fetch(imageURL)
+              .then(function(response) {
+                if (!response.ok) {
+                  throw new Error('Error downloading the required file.');
+                }
+                return response.text();
+              })
+              .then(function(textContent) {
+                textContent = textContent.replace(/"HasBeenSummoned": true/g, '"HasBeenSummoned": false');
+  
+                // Create an <a> element with the content of the text file
+                var link = document.createElement('a');
+                link.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(textContent);
+                link.download = fileName;
+                link.click();
+              })
+              .catch(function(error) {
+                console.error(error);
+              });
+          }
+  
+          // Function to download the image with a specific extension
+          function downloadPet(imageURL) {
+            imageURL = imageURL.replace('.png', '.pet');
+            var fileName = imageURL.substring(imageURL.lastIndexOf('/') + 1);
+            var link = document.createElement('a');
+            link.href = imageURL;
+            link.download = fileName;
+            link.click();
+          }
+        });
 
-        // Function to download the image with a specific extension
-        function downloadPet(imageURL) {
-          imageURL = imageURL.replace('.png', '.pet');
-          var fileName = imageURL.substring(imageURL.lastIndexOf('/') + 1);
-          var link = document.createElement('a');
-          link.href = imageURL;
-          link.download = fileName;
-          link.click();
-        }
       } else {
         zoomImage.style.display = 'none';
         deleteButton.style.display = 'none';
@@ -533,6 +537,11 @@
     window.addEventListener('DOMContentLoaded', function() {
 
       var thumbnailGallery = document.getElementById('thumbnailGallery');
+      var containerElement = document.getElementById('container');
+
+      const adj = parseInt(window.getComputedStyle(containerElement).getPropertyValue('height'), 10) - parseInt(window.getComputedStyle(thumbnailGallery).getPropertyValue('height'), 10) + containerElement.offsetTop;
+      thumbnailGallery.style.height = 'Calc(100vh - ' + adj + 'px)';
+
 
       // Create sections in the gallery for each category
       var categories = [];
@@ -654,7 +663,6 @@
           // fail to load all images
           console.error('Error to load ', error);
         });
-
     });
 
     function toHex1(v) {
