@@ -1,0 +1,68 @@
+{
+  "Scale": 0.09127147495746613,
+  "CreatureID": "^SEASNAKE",
+  "Descriptors": [
+    "^_SNAKE_A",
+    "^_HEAD_4",
+    "^_HWACC_1",
+    "^_WINGS_11",
+    "^_BODY_1",
+    "^_B1ACC_2",
+    "^_TAIL_2",
+    "^_TAILFIN_3",
+    "^875306505"
+  ],
+  "CreatureSeed": [
+    true,
+    "0xC21DDAC67E7FE850"
+  ],
+  "CreatureSecondarySeed": [
+    true,
+    "0xA21538F9556A070E"
+  ],
+  "SpeciesSeed": "0x5C722DA3351B58B4",
+  "GenusSeed": "0x614CE1EAB0C8FC47",
+  "CustomSpeciesName": "^",
+  "Predator": false,
+  "UA": "0x505A00FC47B55B",
+  "AllowUnmodifiedReroll": true,
+  "ColourBaseSeed": [
+    false,
+    "0x0"
+  ],
+  "BoneScaleSeed": [
+    true,
+    "0xC21DDAC67E7FE850"
+  ],
+  "HasFur": false,
+  "Biome": {
+    "Biome": "Lush"
+  },
+  "CreatureType": {
+    "CreatureType": "Fish"
+  },
+  "BirthTime": 1690064699,
+  "LastEggTime": 1690064699,
+  "LastTrustIncreaseTime": 1690064743,
+  "LastTrustDecreaseTime": 1690064699,
+  "EggModified": false,
+  "HasBeenSummoned": true,
+  "CustomName": "",
+  "Trust": 1,
+  "SenderData": {
+    "LID": "",
+    "UID": "",
+    "USN": "",
+    "PTK": "",
+    "TS": 0
+  },
+  "Traits": [
+    0.7637179493904114,
+    0.32115066051483154,
+    -0.42674368619918823
+  ],
+  "Moods": [
+    0.4354933500289917,
+    1
+  ]
+}
